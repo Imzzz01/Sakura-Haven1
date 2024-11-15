@@ -28,7 +28,7 @@
     </div>
     <div>
     <label for="lname">Last Name</label>
-    <input type="text" name="lname" id="lname" placeholder="Enter your First name">
+    <input type="text" name="lname" id="lname" placeholder="Enter your Last name">
     </div>
     <div>
     <label for="email">Email</label>
@@ -38,6 +38,7 @@
    <div>
     <label for="age" class="block-label">Age</label>
     <select id="age-1" name="age-1" required>
+        <option value="" disabled selected>Select your age group</option>
         <option value="40s">Ages over 40+</option>
         <option value="30s">Ages over 30</option>
         <option value="20s">Ages over 20</option>
@@ -45,20 +46,21 @@
         
     </select>
 
-    <fieldset>
+</fieldset>
+<fieldset>
         <!-- Datalist - options to create a drop down system which allows users to select which product they use on a daily basis?  -->
         <legend>Our Products</legend>
         <div>
             <label for="fav-skincare" class="block-label">Which Skincare product do you use on a daily basis?</label>
             <input id="fav-skincare" list="skincare" name="fav-skincare" required>
             <datalist id="skincare">
-                <option value="Cleanser">
-                <option value="Eye-cream">
-                <option value="Toner Essence"> 
-               <option value="Serum"> 
-               <option value="Moisturiser"> 
-              <option value="Cream"> 
-              <option value="SPF"> 
+                <option value="Cleanser"></option>
+                <option value="Eye-cream"></option>
+                <option value="Toner Essence"></option>
+               <option value="Serum"></option>
+               <option value="Moisturiser"></option>
+              <option value="Cream"></option>
+              <option value="SPF"></option>
               </datalist>
             </div>
     </fieldset>
@@ -97,4 +99,4 @@
 
 </div>
 </body>
-</html
+</html>
