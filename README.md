@@ -50,7 +50,7 @@ User reviews: Adding a User review section will allow customers to share their f
 
 Sakura Haven will evolve to meet the needs of our audience. It will aim to establish itself as a leading destination for those seeking authentic Japanese skincare products.
 
-
+![gant chart](https://github.com/user-attachments/assets/c091b564-73de-4e9c-9b69-dbb19edf01e8)
 
 
 
