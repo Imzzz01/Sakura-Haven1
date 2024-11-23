@@ -34,7 +34,7 @@
     </div>
     <div>
     <label for="lname">Last Name</label>
-    <input type="text" name="lname" id="lname" placeholder="Enter your First name">
+    <input type="text" name="lname" id="lname" placeholder="Enter your Last name">
     </div>
     <div>
     <label for="email">Email</label>
@@ -43,14 +43,16 @@
    </div>
    <div>
     <label for="age" class="block-label">Age</label>
-    <select id="age-1" name="age-1" required>
+    <select id="age" name="age" required>
+        <option value="" disabled selected>Select your age</option>
         <option value="40s">Ages over 40+</option>
         <option value="30s">Ages over 30</option>
         <option value="20s">Ages over 20</option>
         <option value="under-20">Under 20</option>
         
     </select>
-
+</div>
+</fieldset>
     <fieldset>
         <legend>Our Products</legend>
         <div>
@@ -76,7 +78,7 @@
     <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" required>
     <label for="twice-a-week">Twice a week</label>
 
-    <input id="once-month" name="visit-frequency" value="once-a-month" type="radio" required>
+    <input id="once-a-month" name="visit-frequency" value="once-a-month" type="radio" required>
     <label for="once-a-month">Once a month</label>
 
     <input id="not-often" name="visit-frequency" value="not-often" type="radio" required>
@@ -102,4 +104,4 @@
 </div>
 
 </body>
-</html
+</html>
