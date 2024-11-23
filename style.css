@@ -1,417 +1,293 @@
-*{
-    margin: 0;/* Removes default margin*/
-    padding: 0;/* Removes default Padding*/
-    box-sizing: border-box;/* Include padding and border in elements total width and height*/
-    list-style: none;/* removes bullet points from lists */
-    font-family: 'Open Sans', sans-serif;/* sets the default font style*/
-}
-:root{
-    --text-color: #fff;/* white text color*/
-    --bg-color: #000;/* black background color*/
-    --main-color: #ffa343;/* main accent color*/
-
-    --h1-font: 6rem;/* font size for h1*/
-    --h2-font: 3rem;/* font size for h2*/
-    --p-font: 1rem;/* font size for paragraphs*/
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-h1,h3{
-    font-family: 'Merienda One', 'Brush Script MT', cursive;/* custom cursive font for headings*/
-   
-
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-body{
-    color: var(--text-color); /* set body text color*/
-    
-}
-
-header {   
-    position: fixed; /* This fixes the header at top*/
-    top: 0; /* Align to the top */
-    right: 0; /*Align to the right */
-    z-index: 1000; /*Makes sure that the header is above other elements */
-    width: 105%; /* This makes sure that the nav bar show's each menu */
-    background: transparent; /* Transparent background*/
-    padding: 24px 14%; /* Padding around header content */
-    display:flex; /* This is to make sure that the nav bar is in a line */
-    align-items: center; /* Centers items vertically*/
-    justify-content: space-between; /* creates space between content */
-    transition: all .50s ease; /* Smooth transition*/
-
-}
-
-.logo{
-    margin-bottom: 1vh;
-    font-size: 28px; /* Logo font-size */
-    color: var(--text-color);/* changes the logo color */
-    font-weight:600; /* Bold font weight*/
-    
-    
-   
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black; 
+    color: white;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
 }
 
 span {
-    color: var(--main-color); /* changes the color of the span element.*/
+    color: #ffa343;
 }
 
-.nav-bar{
-    display:flex; /* flex layout for nav items*/
-  
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-.nav-bar a {
-    align-content: center;/* center align nav links */
-    color: var(--text-color); /* nav link color */
-    font-size: 16px;/* nav link font size*/
-    font-weight: 500;/* medium font weight*/
-    margin: 12px;/* margin between links*/
-    transition: all .50s ease;/* smooth transition for hover effects*/
-
+nav ul {
+    list-style: none;
+    display: flex;
 }
 
 nav ul li {
-   display: inline;/*display list items inline*/
-    margin: 10px 0;/* vertical margin for list items*/
-
+    margin: 0 15px;
 }
 
-.nav-bar a:hover{
-    color:var(--main-color);/* change color on hover*/
-    transition: .3s;/* transition for hover effect*/
-
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
-header.sticky{
-    padding: 8px 17%;/* adjust padding for sticky header*/
-    background: transparent;/* keep background transparent*/
-    backdrop-filter: blur(100px);/* apply blur effect*/
+nav ul li a:hover {
+    color: #ffa343;
 }
 
-
-/* This is for the social media links */
-.media-right{
-    display: flex; /* This Keeps the links inline with the nav bar */
-    align-items: center;/* center align items*/
-
+/* Section Styles */
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
 }
 
-.media-right a:first-child {
-    color: var(--text-color);/* color for first social media link */
-    font-size: var(--p-font);/*font size for first link */
-    margin-right: 15px /* right margin*/
-
-}
-
-.media-right a {
-vertical-align: middle;/*align vertically */
-font-size: 20px;/* font size for social media links*/
-color: var(--text-color );/* color for links*/
-margin-right: 18px;/* right margin*/
-margin-left: 5px;/* left margin*/
-transition: all .50s ease;/* smooth transition*/
-}
-
-.media-right a:hover{
- color: var(--main-color);/* changes color on hover*/
- transform:translateY(-3px);/* slight upward movements*/
-
-}
-
-/* CSS for Home Page  */
-.home{
-    position: relative;/* positions context for child elements*/
-    height: 150vh;/* full viewport height*/
-    width: 100%;/* full width*/
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://i.ytimg.com/vi/Ts8hZcZMIZE/maxresdefault.jpg);/* sets the text color*/
-    background-size: cover;/* cover entire area*/
-    background-position: bottom center;/* positions image*/
-    display: flex;/* flex layout*/
-    align-items:center;/* center align items*/
-    justify-content: flex-start;/* start aligning items*/
+#home {
+    position: relative;
+    height: 140vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://i.ytimg.com/vi/Ts8hZcZMIZE/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
 }
 
 .home-text h5{
-    position: relative;/* position relative for potential overlapping elements*/
-    font-size: 28px;/* font size for h5*/
-    font-weight: 600;/* bold font weight*/
-    margin-bottom: 10px;/* bottom margin*/
-    text-transform: uppercase;/* uppercase text*/
-    letter-spacing: 6px;/* letter spacing*/
-    color: var(--main-color);/* color for h5*/
-    display: flex;/* flex layout*/
-    justify-content: center;/* center align */
-    text-align: center;/* center text*/
+    position: relative;
+    color: #ffa343;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
     
 }
 
 .home-text h1{
-    font-size: 90px;/* large font size*/
-    font-weight: 300;/* light font weight*/
-    line-height: 1.2;/* line height*/
-    margin-bottom: 28px;/* bottom margin*/
-    text-align: center;/* center text*/
-    color: #ffffff;/* white color*/
+    font-size: 58px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 28px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Merienda One', 'Brush Script MT', cursive;
     
     
 }
 
 .home-text p{
-    font-size: 20px;/* font size for paragraphs */
-    font-weight: 500;/* medium font weight*/
-    line-height: 30px;/* line height*/
-    color: #ffffff;/* white color*/
-    margin-bottom: 35px;/* bottom margin*/
-    text-align: center;/* center text*/
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    text-align: center;
 
 
 }
 
- /* This is CSS for the Product section */
-
-
-.product-container{  
-    display: flex;/* flex layout */
-    gap: 10%;/* space between items*/
-    text-align:left;/* left align text*/
-    background-color: rgb(44, 7, 46);/* background color*/
-    width:100%;/* full width*/
-    height:400px;/* fixed height*/
-    margin: 0%;/* no margin*/
-    padding:0%;/* no padding*/
-    
+#products {
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    background-color: rgba(145, 74, 80, 0.799);
     
 }
 
-.my-products p{
-    color: white;/* white text*/
-    text-align:center;/* center align*/
-    font-size: 15px;/* font size*/
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
-.product-container h3{
-    color: rgb(250, 250, 250);/* light color for heading*/
-    text-align: center;/* center align*/
-
-}
-.my-products h2{
-    font-size: 28px;/* font size for subheading*/
-    color: var(--main-color);/* main color for subheading*/
-    text-align: center;/* center alignr*/
-    width: 100%;/* full width*/
-    font-family:Arial, Helvetica, sans-serif;/* transition*/
+.product-item:hover{
+    background-color: rgba(230, 156, 163, 0.799);
 }
 
-.my-products h2:hover{
-    color: var(--main-color);/* main color*/
-    transition: .3s;/* transition*/
+.product-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+#contact {
+    
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/1611057.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
 
-.product-container h3:hover{
-    color: var(--main-color);
-    transition: .3s;
-    text-decoration: underline;
+h3 {
+    font-family: 'Merienda One', 'Brush Script MT', cursive;
 }
 
-.menu-item img{
-    position:relative;/* positioning context*/
-    width: 180px;/* fixed width*/
-    height: 180px;/* fixed height*/
-    align-items: center;/* center align*/
-    padding-left: 2px;/* left padding*/
-    display:block;/* block display*/
-    align-items: center;/* center align*/
-    justify-content: space-between;/* space between items*/
-    padding-top:  10px;/* top padding*/
-    padding-right: 1px;/* right padding*/
-    
- }
-
- /* This is CSS for the About us section */
-
-.information-container{
-    margin: 0%;/* no margin */
-    background-color: rgb(44, 7, 46);/* background color*/
-    color:#ffffff;/* white text color*/
-    width:100%;/* full width*/
-    height:450px;/* fixed height*/
-    
-   
+#about {
+   background-color: rgba(145, 74, 80, 0.799);
 }
+
 
 .information-container h2{
-    color: var(--main-color);/* main color for heading*/
-    text-align: center;/* center align*/
-    text-wrap: wrap;/* wrap text*/
-    text-decoration: underline;/* underline*/
-   
+    margin: 0%;
+    color:#020101;
+    width:100%;
+    height:40px;
+    text-align: center;
     
-}
-.information-container p {
-    font-size: 14px;   /* font size*/
+    
+   
 }
 
 .information-container img{
-    float:left;/* image floats to the left*/
-    
+    float: left;
+   
 }
 
-/* This is for the Contact page*/
-
-.table-container{
-    margin-bottom: 20px;/* bottom margin */
-    display: flex;/* flex layout*/
-    justify-content: center;/* center align*/
+table-container{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    
+   
    
 }
 table {
   
-    background-size: cover;/* cover background*/
-    border-radius: 30px;/* rounded corners*/
-    text-align: center;/* center text*/
+    background-size: cover;
+    border-radius: 10px;
+    
     box-shadow: 0 2px 5px rgba(241, 237, 237, 0.1);
-    width:30%;/* fixed width*/
+    width:100%;
+    max-width: 900px;
+    text-align: center;
+    margin-left: 10px;
+   
    
     
 }
-
-
 th, td {
-    border: 1px solid #500686;/*border colour */
-    padding: 10px;/* padding*/
+    border: 1px solid #000000;
+    box-shadow: 0 4px 5px rgba(243, 239, 239, 0.1);
+    padding: 10px;
 }
 
 th {
-    background-color: var(--main-color);/* background colour*/
+    background-color: var(--main-color);
 }
 
 .contact-map-container{
-    display: flex;/* flex*/
-    justify-content: flex-start;/* align to the left*/
-    margin-top: 20px;/*top margin */
-    margin-left: 20px;/* left margin*/
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .contact-map-container iframe {
-     width: 100%;/* width*/
+     width: 100%;
 }
 
 .contact-info{
-   margin-bottom: 20px;/* bottom margin*/
-   display: flex;/* flex*/
-   flex-direction: column;/* flex layout*/
-   align-items: center;/* stack items vertically*/
+   margin-bottom: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    
 }
 .bold{
-    font-weight: bold;/* bold font weight */
+    font-weight: bold;
 }
 
 
-.Contact{
-    text-align: center;/* center align text*/
-    width: 100%;/* full width*/
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/1611057.jpg);/* background*/
-    background-size: cover;/* cover background*/
-}
+
 
 .Contact h3 {
-    font-size: 35px;/*font size*/
-    margin: 20px 0;/* margin*/
+    font-size: 35px;
+    margin: 20px 0;
     
 }
-/* CSS for Footer */
 
-footer{
-   
-   background-color: rgb(44, 7, 46);
-    padding: 1em;
+
+/* Footer Styles */
+footer {
     text-align: center;
-    width: 100%;
-    
-}
-
-footer > span {
-       color: white;/* span elements*/
-}
-
-footer > a {
-    color: var(--main-color);
-    text-decoration: none;
-    padding: 0 15px;
-    font-size: 0.9rem;
-}
-
-footer > p{
+    background: #333;
     color: white;
+    padding: 20px 10px;
 }
 
-.footer-bar{
-    position: relative;
-    height: 15vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 50px;/* top padding*/
-    padding-left: 15%;/* left padding*/
-    padding-right: 10%;/* right padding*/
-    background-size: cover;
-
+.social-media a {
+    color: #ffa343;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
 }
 
-/* For Media Quries*/
-@media (max-width: 600px) {
-   body{
-    font-size: 16px;/* font size for smaller screens*/
-   }
-    }
+.social-media a:hover {
+    text-decoration: underline;
+}
 
-   header{
-    padding: 16px 5%;
-   }
-
-   .home-text h1 {
-    font-size: 4rem;
-   }
-
-   .product-container{
-    flex-direction: row;
-   }
-
-   .nav-bar{
-    font-size: 5px;
-   }
-   
-
-   
-
-
-    @media (min-width: 601px) and (max-width: 900px){
-       .product-container {
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
         flex-direction: row;
-        justify-content: space-between;
-       }
-
-       .home-text h1{
-        font-size: 5rem;
-       }
+        align-items: center;
+        
     }
 
-   
-
+    nav ul li {
+        margin: 10px 0;
+    }
+}
 /* Form */
 fieldset {
-	border: none;/* remove border*/
-	margin-top: 20px;/* top margin*/
+	border: none;
+	margin-top: 20px;
 }
 
 input[type=submit] {
-	margin-top: 19px;/* top margin*/
-	margin-left: 0.60rem;/* left margin*/
-	padding: 0.60rem;/* padding*/
-	background-color: #5e361b;/* background color*/
+	margin-top: 19px;
+	margin-left: 0.60rem;
+	padding: 0.60rem;
+	background-color: #5e361b;
 	color: white;
 	border: none;
 	border-radius: 20px;
@@ -426,7 +302,7 @@ input[type=submit]:hover  {
 
 .message{
     display: none;
-    background-color:#6f0a63;/* hidden by default*/
+    background-color:#6f0a63;
     padding: 20px;
     margin-top: 20px;
     border: 1px solid #500686;
@@ -511,31 +387,99 @@ label {
     
 }
 
-@media (min-width: 600px) {
-input[type=text], input[type=email], select {
-    width: 70%;
-   }
-   input[type=submit], input[type=reset] {
-   width: 80%;
-   }
-
-   form{
-    width: 90%;
-   }
-}
- @media (min-width: 901px){
+@media (max-width: 430px) {
     form{
-        width: 70%;
+        
+        padding: 12px;
     }
-input[type=text], input[type=email], select{
-    width: 90%;
+    input[type=text],
+input[type=email],
+input[list=skincare],
 
+select{
+    width: 50%;
 }
 
-input[type=submit], input[type=reset] {
-    width:20%;
+input[type=submit],
+input[type=reset] {
+    width: 50%;
 }
 
-   
-        }
+legend{
+    font-size: 12px;
+}
+
+
+}
+@media (max-width: 600px) {
+form{
     
+    padding: 15px;
+}
+
+input[type=text],
+input[type=email],
+input[list=skincare],
+
+select{
+    width: 20%;
+}
+
+input[type=submit],
+input[type=reset] {
+    width: 50%;
+}
+
+legend{
+    font-size: 12px;
+}
+
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+    form{
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[list=skincare],
+
+    select{
+        width: 100%;
+    }
+
+    
+input[type=submit],
+input[type=reset] {
+    width: 45%;
+}
+}
+@media (min-width: 480px){
+    .menu-item{
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px) {
+}
+
+@media (min-width: 901px) {
+    form{
+        width: 60%;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[list=skincare],
+
+    select{
+        width: 90%;
+    }
+
+    
+input[type=submit],
+input[type=reset] {
+    width: 20%;
+}
+}
