@@ -283,17 +283,15 @@ fieldset {
 	margin-top: 20px;
 }
 
-input[type=submit] {
-	margin-top: 19px;
-	margin-left: 0.60rem;
-	padding: 0.60rem;
+input[type="submit"],
+input[type="reset"] {
+	width: 48%;
+	padding: 10px;
 	background-color: #5e361b;
 	color: white;
 	border: none;
-	border-radius: 20px;
-    display: block;
-    margin: 0 auto;
-    width: 20%;
+	border-radius: 4px;
+    margin-top: 10px;
 }
 
 input[type=submit]:hover  {
@@ -306,65 +304,42 @@ input[type=submit]:hover  {
     padding: 20px;
     margin-top: 20px;
     border: 1px solid #500686;
-    border-radius: 4px;
+    color: white;
     text-align: center;
 }
 
-input[type=reset] {
-    margin-top: 19px;
-	margin-left: 0.60rem;
-	padding: 0.60rem;
-	background-color: #6f0a63;
-	color: white;
-	border: none;
-	border-radius: 20px;
-    align-items: end;
-    display: block;
-    margin: 0 auto;
-    width: 20%;
-    margin-top: 2%;
+
+
+input[type="text"],
+input[type="email"],
+input[list="skincare"],
+select, 
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+	border-radius: 4px;
 }
 
-input[type=text],
-input[type=email],
-input[list=skincare] {
-    height: 30px;
-    width: 90%;
-    padding-left: 10px;
-	margin: 0 auto;
-}
-
-/* overrides css above */
-input[list=skincare] {
-    width: 45%;
-}
-
-select {
-    height: 30px;
-    width: 100px;
-    padding-left: 10px;
-}
 
 form {
-	width: 900px;
-	padding: 25px;
+	width: 90%;
+    max-width: 600px;
+	padding: 20px;
 	border-radius: 8px;
 	margin: 25px auto;
 	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/2749372.jpg);
     background-size: cover;
-    margin: 120px;
+    box-shadow: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
 }
 
-.block-label {
-	display: block;
+h1, p {
+    text-align: center;
 }
 
-legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 20px 0 10px 0;
-}
 
 label {
     display: block;
@@ -372,13 +347,6 @@ label {
 
 }
 
-.checkboxes-box div {
-    margin-top: 15px;
-}
-
-#reasons li {
-    margin-top: 5%;
-}
 
 .form-header{
     font-size: 15px;
@@ -387,99 +355,9 @@ label {
     
 }
 
-@media (max-width: 430px) {
-    form{
-        
-        padding: 12px;
-    }
-    input[type=text],
-input[type=email],
-input[list=skincare],
-
-select{
-    width: 50%;
-}
-
-input[type=submit],
-input[type=reset] {
-    width: 50%;
-}
-
-legend{
-    font-size: 12px;
-}
-
-
-}
 @media (max-width: 600px) {
-form{
-    
-    padding: 15px;
-}
-
-input[type=text],
-input[type=email],
-input[list=skincare],
-
-select{
-    width: 20%;
-}
-
-input[type=submit],
-input[type=reset] {
-    width: 50%;
-}
-
-legend{
-    font-size: 12px;
-}
-
-}
-
-@media (min-width: 601px) and (max-width: 900px){
-    form{
-        width: 100%;
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%
     }
-
-    input[type=text],
-    input[type=email],
-    input[list=skincare],
-
-    select{
-        width: 100%;
-    }
-
-    
-input[type=submit],
-input[type=reset] {
-    width: 45%;
-}
-}
-@media (min-width: 480px){
-    .menu-item{
-        flex: 0 1 100%;
-        max-width: 100%;
-    }
-}
-@media (min-width: 768px) {
-}
-
-@media (min-width: 901px) {
-    form{
-        width: 60%;
-    }
-
-    input[type=text],
-    input[type=email],
-    input[list=skincare],
-
-    select{
-        width: 90%;
-    }
-
-    
-input[type=submit],
-input[type=reset] {
-    width: 20%;
-}
 }
