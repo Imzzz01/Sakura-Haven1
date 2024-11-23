@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style.css">
      
     <title>Form</title>
 </head>
 <body>
-    <!-- Form onsubmit - to display a congratulation message!  -->
+
+    
     <form onsubmit="event.preventDefault(); document.getElementById('congrats').style.display = 'block';">
 
-        <!-- Header for the form!  -->
+        
         <header class="form-header">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </nav>
             <h1>Win a free skincare product</h1>
             <p>Complete our short survey for your chance to win a luxiourous product!</p>
         </header>
@@ -23,13 +28,13 @@
         <legend>Your Details</legend>
     
     <div>
-       <!-- input and labels for form details!  -->
+       
     <label for="fname" class="block-label">First Name</label>
     <input type="text" name="fname" id="fname" placeholder="Enter your First name">
     </div>
     <div>
     <label for="lname">Last Name</label>
-    <input type="text" name="lname" id="lname" placeholder="Enter your Last name">
+    <input type="text" name="lname" id="lname" placeholder="Enter your First name">
     </div>
     <div>
     <label for="email">Email</label>
@@ -39,7 +44,6 @@
    <div>
     <label for="age" class="block-label">Age</label>
     <select id="age-1" name="age-1" required>
-        <option value="" disabled selected>Select your age group</option>
         <option value="40s">Ages over 40+</option>
         <option value="30s">Ages over 30</option>
         <option value="20s">Ages over 20</option>
@@ -47,27 +51,25 @@
         
     </select>
 
-</fieldset>
-<fieldset>
-        <!-- Datalist - options to create a drop down system which allows users to select which product they use on a daily basis?  -->
+    <fieldset>
         <legend>Our Products</legend>
         <div>
             <label for="fav-skincare" class="block-label">Which Skincare product do you use on a daily basis?</label>
             <input id="fav-skincare" list="skincare" name="fav-skincare" required>
             <datalist id="skincare">
-                <option value="Cleanser"></option>
-                <option value="Eye-cream"></option>
-                <option value="Toner Essence"></option>
-               <option value="Serum"></option>
-               <option value="Moisturiser"></option>
-              <option value="Cream"></option>
-              <option value="SPF"></option>
+                <option value="Cleanser">
+                <option value="Eye-cream">
+                <option value="Toner Essence"> 
+               <option value="Serum"> 
+               <option value="Moisturiser"> 
+              <option value="Cream"> 
+              <option value="SPF"> 
               </datalist>
             </div>
     </fieldset>
 
     <p>How often do you buy skincare products?</p>
-   <!-- Radio frequency used here -->
+   
     <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
     <label for="once-a-week">Once a week</label>
 
@@ -81,24 +83,23 @@
     <label for="not-often">Not often</label>
 
     <fieldset>
-        <!-- Feedback area  -->
         <legend>Feedback</legend>
 <label for="feedback" class="block-label">What can we do to improve your experience at Sakura Haven?</label>
     <br>
     <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
     
 </fieldset>
-   <!-- submit button with the value Enter prize draw  -->
+   
    <input type="submit" class="block-label" value="Enter prize draw">
    <input type="reset" value="Reset Form">
      
 </form>
-<!-- Congratulation Message!  -->
+
 <div id="congrats" class="message">
     <h1>Congratulations!</h1>
     <p>You have won a free skincare product!</p>
 
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
-</html>
+</html
