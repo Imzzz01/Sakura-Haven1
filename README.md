@@ -59,9 +59,6 @@ Sakura Haven will evolve to meet the needs of our audience. It will aim to estab
 
 ![Test1](https://github.com/user-attachments/assets/f723a6be-ce2b-4df1-b0bd-e6f34b70ebce)
 
-![wireframe 1](https://github.com/user-attachments/assets/a7703f8b-7e19-4c95-9edc-51935d144414)
-![wireframe 2](https://github.com/user-attachments/assets/1cfe5d22-4a9f-4148-9090-8e6435e186c1)
-![wireframe 3](https://github.com/user-attachments/assets/de6e1460-ad6d-42bf-b581-4270e66442ce)
-![wireframe 4](https://github.com/user-attachments/assets/2c548ed0-cbbb-41b1-8ee5-f30aa8ea138f)
-![wireframe 5](https://github.com/user-attachments/assets/96f5b0d4-c914-4df1-8fa9-45c2761811c6)
+![Wframe1](https://github.com/user-attachments/assets/5c547e91-c345-4260-8b29-8743239946aa)
+![wframe2](https://github.com/user-attachments/assets/b9c1244f-1bbf-4e95-afdb-12dff8c66055)
 
