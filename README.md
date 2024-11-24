@@ -72,6 +72,13 @@ To access my code:
 ![image](https://github.com/user-attachments/assets/2364c05b-b1ef-48e2-b74f-3526b895f3a5)
 
 
+Git commits
+
+![image](https://github.com/user-attachments/assets/f20b93a7-6a52-4a17-8613-df7b624a9c34)
+![image](https://github.com/user-attachments/assets/3a045ab8-a245-48e5-a299-0f3c206b0835)
+
+
+
 
 
 
