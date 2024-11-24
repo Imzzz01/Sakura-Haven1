@@ -155,6 +155,7 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     
+    
 }
 
 h3 {
@@ -243,6 +244,7 @@ th {
 .Contact h3 {
     font-size: 35px;
     margin: 20px 0;
+
     
 }
 
@@ -293,13 +295,12 @@ form {
 	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/2749372.jpg);
     background-size: cover;
     box-shadow: white;
+    color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
 }
+   
 
-h, p { 
-    text-align: center;
-    }
     fieldset{
     border: none;
     margin-top: 20px;

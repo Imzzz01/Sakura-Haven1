@@ -12,36 +12,41 @@
     
     <form onsubmit="event.preventDefault(); document.getElementById('congrats').style.display = 'block';">
 
-        
+       <!-- Form Header  --> 
         <header class="form-header">
+           <!-- A Home page button to take you back to Home Page  -->
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="index.html" target="_blank" style="color: black;"  class="btn">Home Page</a></li>
                 </ul>
             </nav>
             <h1>Win a free skincare product</h1>
-            <p>Complete our short survey for your chance to win a luxiourous product!</p>
+            <p>Complete our short survey for your chance to win a luxurious product!</p>
         </header>
- 
+ <!-- Personal details  -->
         <fieldset>
         
         <legend style="text-align: center;">Your Details</legend>
     
     <div>
        
-    <label for="fname" class="block-label">First Name</label>
-    <input type="text" name="fname" id="fname" placeholder="Enter your First name">
+     <!-- First Name  -->
+       <label for="fname" class="block-label">First Name</label>
+    <input type="text" name="fname" id="fname" placeholder="Enter your First name" required>
     </div>
     <div>
+         <!-- Last Name  -->
     <label for="lname">Last Name</label>
-    <input type="text" name="lname" id="lname" placeholder="Enter your Last name">
-    </div>
+    <input type="text" name="lname" id="lname" placeholder="Enter your Last name" required>
+</div>
     <div>
+         <!-- Email Address  -->
     <label for="email">Email</label>
-    <input type="email" name="email" id="email" placeholder="Enter your Email">
-    
+    <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+     
    </div>
    <div>
+    <!-- Ages Drop down  -->
     <label for="age" class="block-label">Age</label>
     <select id="age" name="age" required>
         <option value="" disabled selected>Select your age</option>
@@ -53,37 +58,42 @@
     </select>
 </div>
 </fieldset>
-    <fieldset>
+     <!-- Skincare product fieldset  -->
+<fieldset>
+        <!-- Product input  -->
         <legend>Our Products</legend>
         <div>
             <label for="fav-skincare" class="block-label">Which Skincare product do you use on a daily basis?</label>
             <input id="fav-skincare" list="skincare" name="fav-skincare" required>
+            <!-- Skincare dropdown  -->
             <datalist id="skincare">
-                <option value="Cleanser">
-                <option value="Eye-cream">
-                <option value="Toner Essence"> 
-               <option value="Serum"> 
-               <option value="Moisturiser"> 
-              <option value="Cream"> 
-              <option value="SPF"> 
+                <option value="Cleanser"></option>
+                <option value="Eye-cream"></option>
+                <option value="Toner Essence"></option>
+               <option value="Serum"></option> 
+               <option value="Moisturiser"></option>
+              <option value="Cream"></option>
+              <option value="SPF"></option>
               </datalist>
             </div>
+            
     </fieldset>
-
+<!-- Radio Purchases -->
     <p>How often do you buy skincare products?</p>
    
-    <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
     <label for="once-a-week">Once a week</label>
-
-    <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" required>
+    <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
+   
     <label for="twice-a-week">Twice a week</label>
-
-    <input id="once-a-month" name="visit-frequency" value="once-a-month" type="radio" required>
+    <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" required>
+    
     <label for="once-a-month">Once a month</label>
-
-    <input id="not-often" name="visit-frequency" value="not-often" type="radio" required>
+    <input id="once-a-month" name="visit-frequency" value="once-a-month" type="radio" required>
+    
     <label for="not-often">Not often</label>
-
+    <input id="not-often" name="visit-frequency" value="not-often" type="radio" required>
+    
+ <!-- Feedback fieldset  -->
     <fieldset>
         <legend>Feedback</legend>
 <label for="feedback" class="block-label">What can we do to improve your experience at Sakura Haven?</label>
@@ -91,13 +101,13 @@
     <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
     
 </fieldset>
-   
+    <!-- Submit and reset   -->
    <input type="submit" class="block-label" value="Enter prize draw">
    <input type="reset" value="Reset Form">
      
 </form>
-
-<div id="congrats" class="message">
+ <!-- Congratulations Message -->
+<div id="congrats" class="message" style="color: black;">
     <h1>Congratulations!</h1>
     <p>You have won a free skincare product!</p>
 
