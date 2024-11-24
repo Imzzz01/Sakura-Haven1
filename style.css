@@ -340,7 +340,6 @@ h, p {
     background-color: 6f0a63;
     padding: 20px;
     margin-top: 20px;
-    color:white;
     text-align: center;
     }
     
@@ -349,11 +348,19 @@ h, p {
     input[type="reset"]{
     width: 100%;
     }
+
+    .form-header h1 {
+        
+        height: 50px;
+        font-size: 15px;
+        
+    }
     }    
 
 
 .form-header{
     font-size: 15px;
+    
     color: #000;
     background-color: #fff;
     
