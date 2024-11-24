@@ -49,6 +49,23 @@ User reviews: Adding a User review section will allow customers to share their f
 
 Sakura Haven will evolve to meet the needs of our audience. It will aim to establish itself as a leading destination for those seeking authentic Japanese skincare products.
 
+How to have access to my Website (Sakura Haven) 
+
+1. Go on Github.com
+2. Link for Github https://github.com/Imzzz01/Sakura-Haven1.git.
+3. Press on this link, Giving you access to my repository! Named Sakura-Haven1(This will hold my readmefile with information about my project, index.html, login.html and style.css.
+4. Make sure to connect Gitpod with Github!!
+
+To access my code:
+
+1. Go on github.com
+2. You will see two options code and open!
+3. Press on open, taking you to my Gitpod workspace.
+4. This is where my Index.html, Login.html, and Style.css code will be displayed!!
+
+![image](https://github.com/user-attachments/assets/ed9d648a-63d7-43ca-a730-195e22890acc)
+
+
 
 ![gant chart](https://github.com/user-attachments/assets/c091b564-73de-4e9c-9b69-dbb19edf01e8)
 ![tst1 1](https://github.com/user-attachments/assets/f78ea2c5-87ec-492a-b3e3-7feef5a4d67f)
