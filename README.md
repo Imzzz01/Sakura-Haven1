@@ -64,6 +64,14 @@ To access my code:
 4. This is where my Index.html, Login.html, and Style.css code will be displayed!!
 
 ![image](https://github.com/user-attachments/assets/ed9d648a-63d7-43ca-a730-195e22890acc)
+![image](https://github.com/user-attachments/assets/0b4065ee-8a79-4781-9a15-c8d220010942)
+![image](https://github.com/user-attachments/assets/fac560ee-902c-4ab3-8d54-ddd78b1aa243)
+![image](https://github.com/user-attachments/assets/18b3f646-fabc-424a-b557-4896ee3780a7)
+![image](https://github.com/user-attachments/assets/34770692-23d3-4358-9429-6f7db38f4feb)
+![image](https://github.com/user-attachments/assets/d1fd8bda-3025-4a06-a6fb-0fca394cef66)
+![image](https://github.com/user-attachments/assets/2364c05b-b1ef-48e2-b74f-3526b895f3a5)
+
+
 
 
 
