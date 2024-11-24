@@ -278,50 +278,6 @@ footer {
     }
 }
 /* Form */
-fieldset {
-	border: none;
-	margin-top: 20px;
-}
-
-input[type="submit"],
-input[type="reset"] {
-	width: 48%;
-	padding: 10px;
-	background-color: #5e361b;
-	color: white;
-	border: none;
-	border-radius: 4px;
-    margin-top: 10px;
-}
-
-input[type=submit]:hover  {
-     background-color:#ffa343;
-}
-
-.message{
-    display: none;
-    background-color:#6f0a63;
-    padding: 20px;
-    margin-top: 20px;
-    border: 1px solid #500686;
-    color: white;
-    text-align: center;
-}
-
-
-
-input[type="text"],
-input[type="email"],
-input[list="skincare"],
-select, 
-textarea{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-	border-radius: 4px;
-}
-
 
 form {
 	width: 90%;
@@ -336,16 +292,59 @@ form {
 
 }
 
-h1, p {
+h, p { 
     text-align: center;
-}
-
-
-label {
+    }
+    fieldset{
+    border: none;
+    margin-top: 20px;
+    }
+    label{
     display: block;
     margin: 10px 0 5px;
-
-}
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="skincare"],
+    select,
+    textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    input[type="submit"],
+    input[type="reset"]{
+    width: 48;
+    padding: 10px;
+    background-color: #5e361b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    }
+    
+    input[type="submit"]:hover{
+    background-color: #ffa343;
+    }
+    .message {
+    display: none;
+    background-color: 6f0a63;
+    padding: 20px;
+    margin-top: 20px;
+    color:white;
+    text-align: center;
+    }
+    
+    @media (max-width: 600px) {
+    input[type="submit"],
+    input[type="reset"]{
+    width: 100%;
+    }
+    }    
 
 
 .form-header{
@@ -353,11 +352,4 @@ label {
     color: #000;
     background-color: #fff;
     
-}
-
-@media (max-width: 600px) {
-    input[type="submit"],
-    input[type="reset"] {
-        width: 100%
-    }
 }
