@@ -1,75 +1,75 @@
-/* General Reset */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+    margin: 0;/* Removes default margin */
+    padding: 0;/* Removes default padding */
+    box-sizing: border-box;/*  */
+    scroll-behavior: smooth; /* smooth scrolling */
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: Arial, sans-serif; /* Font family */
+    line-height: 1.6; /* sets line height*/
 }
 
 /* Header Styles */
 header {
-    position: fixed;
+    position: fixed; /* fixes header at the top */
     top: 0;
     left: 0;
-    width: 100%;
-    background: black; 
-    color: white;
-    padding: 1%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
+    width: 100%;/* appropriate width */
+    background: black;  /* background color set to black */
+    color: white; /* font color */
+    padding: 1%;  /* sets padding around header */
+    display: flex; /* flex for alignment */
+    justify-content: space-between; /* Space between contents */
+    align-items: center; /* Centers items vertically */
+    z-index: 1000;/* makes sure the header stays at top */
 }
 
 span {
-    color: #ffa343;
+    color: #ffa343; /* sets The color of 'Haven' */
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.5rem; /* sets font size */
+    font-weight: bold; /* bold logo text */
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
+    list-style: none;/* removes list styling */
+    display: flex; /* flexbox for navigation items */
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 15px; /* margin between nav items */
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
+    color: white; /* font color set to white */
+    text-decoration: none; /* no text decoration */
+    font-size: 1rem; /* font size */
 }
 
 nav ul li a:hover {
-    color: #ffa343;
+    color: #ffa343; /* When you hover over nav items it would turn this color */
 }
 
 /* Section Styles */
 section {
-    padding: 100px 20px;
-    min-height: 100vh;
+    padding: 100px 20px; /* paddings set for sections */
+    min-height: 100vh;/* sets the min height of sections */
 }
 
 #home {
-    position: relative;
-    height: 140vh;
+    position: relative; 
+    height: 140vh; /* sets height of homepage */
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://i.ytimg.com/vi/Ts8hZcZMIZE/maxresdefault.jpg);
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://i.ytimg.com/vi/Ts8hZcZMIZE/maxresdefault.jpg);/* background image added */
+    background-size: cover; /*covers the page with background image */
+    background-position: center; /* centers background image */
     display: flex;
-    align-items:center;
-    justify-content: flex-start;
+    align-items:center; /* items centered */
+    justify-content: flex-start; /* aligns items to the left */
 }
 
 .home-text h5{
@@ -77,9 +77,9 @@ section {
     color: #ffa343;
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 6px;
+    margin-bottom: 10px; /* adds space below */
+    text-transform: uppercase; /* uppercase text */
+    letter-spacing: 6px;/* letter spacing */
     color: var(--main-color);
     display: flex;
     justify-content: center;
@@ -91,11 +91,11 @@ section {
 .home-text h1{
     font-size: 58px;
     font-weight: 300;
-    line-height: 1.2;
-    margin-bottom: 28px;
+    line-height: 1.2; 
+    margin-bottom: 28px; /* space below */
     text-align: center;
-    color: #ffffff;
-    font-family: 'Merienda One', 'Brush Script MT', cursive;
+    color: #ffffff; 
+    font-family: 'Merienda One', 'Brush Script MT', cursive; /* font family */
     
     
 }
