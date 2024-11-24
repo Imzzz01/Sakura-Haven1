@@ -1,152 +1,169 @@
-<!DOCTYPE html>
+<!-- This is a declaration, for the browser to understand what type of document type to expect   -->
+<!DOCTYPE html> 
+<!-- This is here to declare the language of my website  -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Link to CSS  -->
+    <link rel="stylesheet" href="style.css">
+    
+   <!-- Title of my Website!  -->
     <title>Sakura Haven</title>
-    <link rel="stylesheet" href="style.css"> <!-- External CSS File -->
-</head>
-<body>
+</head> 
+<body> 
 
+    
     <header>
-        
-        <div class="logo">Sakura <span> Haven</span></div>
-        <!-- This is Nav Bar-->
-        <nav>
-            <ul>
-                
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#about">About-us</a></li>
-                <li><a href="#contact">Contact us</a></li>
-                <li><a href="Login.html" target="_blank" class="btn">Form</a></li>
-            </ul>
-        </nav>
+ <!-- Navigation links to different sections.  -->
+        <div class="logo">Sakura<span>Haven</span></div>
+       <nav>
+            <ul class="nav-bar"> 
+        <li> <a href="#home">Home</a></li>
+        <li> <a href="#product">Products</a></li>
+        <li> <a href="#about">About-us</a></li> 
+        <li> <a href="#contact">Contact</a></li>
+        <li> <a href="Login.html" target="_blank" class="btn">Form</a></li> 
+    </ul>
+       
+       </nav>
+     
     </header>
-
-    <!-- Home Section -->
-    <section id="home">
-          <div class="home-text">
-
+    
+    <!-- This is the home section with information   -->
+    <section id="home"> 
+    <div class="home-text">
         <h5 style="color: #ffa343;">Welcome</h5>
         <h1>To Sakura <br> Haven</h1>
         <p>This is where Japanese beauty rituals meet modern elegance. Discover skincare and makeup crafted with centuries-old botonicals, innovative ingredients, and Japan's unmatched precision. </p>
         
-       </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Products Section -->
-    <section id="products">
+    <!-- This is the product section showcasing the latest products with information-->
+    <section id="product"> 
         <h2 style="font-family: 'Merienda One', 'Brush Script MT', cursive; font-size: 50px; color: black;">Latest Products</h2>
         <div class="product-grid">
-            <div class="product-item">
-                <img src="https://cdn-sv2.stylevana.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/s/k/sk-ii-facial-treatment-essence-miniature-set-30ml-76.jpg" alt="SK-II Facial Treatment">
-                <h2>SK-II Facial Treatment</h2>
-                <p>A luxurious essence for radiant skin.</p>
-            </div>
-            <div class="product-item">
-                <img src="https://cdn.shopify.com/s/files/1/0378/7590/8747/products/Softymo-Speedy-Extra.jpg?v=1604953669" alt="Kose Cleansing Oil">
-                <h2>Kose Cleansing Oil</h2>
-                <p>Removes makeup and cleanses deeply.</p>
-            </div>
-            <div class="product-item">
-                <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/55/949/L_p0205194955.jpg" alt="Orbis Hair Milk">
-                <h2>Orbis Hair Milk</h2>
-                <p>Revives dry and damaged hair.</p>
-            </div>
-            </div>
-        
-    </section>
-
-   
-
-    <!-- About us Section -->
-   
-        <section id="about"> 
-            <div class="About-us">
-                 <div class="information-container">
-                     <h2 style="font-family: 'Merienda One', 'Brush Script MT', cursive; font-size: 50px; margin-bottom: 80px;">About Us</h2>
-                    
-               
-     
-          <img src="https://th.bing.com/th/id/OIP.UNhIrLeR-WGf05RdafrItwHaHa?rs=1&pid=ImgDetMain" alt="Japanese Skincare" width="300" height="300">
-       
-          <p>Hello, my name is Iman, and I am the owner of Sakura Haven. I have a deep admiration for Japanese culture, especially their skincare, which is known for its elegance and ability to give your skin a heavenly glow. If you're a Jdrama fan, you likely appreciate all aspects of Japan, from its traditional food to its skincare, makeup, and antiques. </p>           
-     <br>
-     
-       <p>I am here to assist you on your skincare journey. At Sakura Haven, I believe that everyone deserves to feel confident in their own skin.</p>
-         <br>
-         
-     
-         <p>Join me in exploring the world of Japanese wellness, and let's embark on this beautiful journey together!</p>   
-         </div>
-      </div>
-     </section>
-     
-     <!-- Contact Section -->
-    <section id="contact">
-        
-            <div class="Contact">
-            <h3>Contact Us</h3>
-            <div class="contact-info">
-            
-            <div>
-                <span class="bold">Phone: </span>
-                <span>020 678 9829</span>
-            </div>
-            <div>
-                <span class="bold">Email: </span>
-                <span>Sakura.Haven@gmail.com</span>
-             </div>
-            </div>
-             
-                 <h3>Open Times</h3>
-                <div class="table-container">
-            
-            <table>
-                <tr>
-                   <th></th>
-                    <th>Open</th>
-                    <th>Close</th>
-            
-                    </tr>
-                    <tr>
-                        <td>Mon - Fri</td>
-                        <td>8:00</td>
-                        <td>24:00</td>
-                    </tr>
-                    <tr>
-                        <td>Weekend</td>
-                        <td>12:00</td>
-                        <td>24:00</td>
-                    
-            
-                </tr>
-                </table>
-                </div>
-            <h3>Address</h3>
-                <br>
-            <p>Sakura Haven, <br>Carnaby St, <br>London</p>    
-            
-            
-            <div class="contact-map-container">
-            
-            
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9932.00649633658!2d-0.1388547999999719!3d51.51318620000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d511378c85%3A0xda5fe61b4e8aa161!2sCarnaby%20St%2C%20London!5e0!3m2!1sen!2suk!4v1730406112028!5m2!1sen!2suk" width="1500" height="300"></iframe>
-             </div>
-            </div>
-        
-                
-    </section>
-<!-- Footer -->
-    <footer>
-        <div class="social-media">
-            <a href="https://www.instagram.com" target="_blank">Instagram</a>
-            <a href="https://www.facebook.com" target="_blank">Facebook</a>
-            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+          <div class="product-item">
+        <img src="https://cdn-sv2.stylevana.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/s/k/sk-ii-facial-treatment-essence-miniature-set-30ml-76.jpg" alt="This is a japanese skincare product">
+        <h2>SK-II</h2>
+        <p> A facial Treatment Essence Miniature  </p>
+    
+    
+   </div> 
+        <div class="product-item">
+        <img src="https://cdn.shopify.com/s/files/1/0378/7590/8747/products/Softymo-Speedy-Extra.jpg?v=1604953669" alt="A Japanese cleansing oil">
+        <h2>Kose-Softymo Cleansing Oil</h2>
+        <p>A Cleansing oil designed just for you!</p>
+    
         </div>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
+    
+        <div class="product-item">
+            <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/55/949/L_p0205194955.jpg" alt="Hair product">
+            <h2>Orbis-Essence in hair milk</h2>
+            <p>A Treatment for dry, split ends and for hair disasters!</p>
+    
+        </div>
+        </div>
+
+    </section>
+
+     <!-- About section providing info about me and my brand  -->
+        <section id="about"> 
+       <div class="About-us">
+            <div class="information-container">
+                <h2 style="font-family: 'Merienda One', 'Brush Script MT', cursive; font-size: 50px; margin-bottom: 80px;">About Us</h2>
+                
+     <img src="https://th.bing.com/th/id/OIP.UNhIrLeR-WGf05RdafrItwHaHa?rs=1&pid=ImgDetMain" alt="Japanese Skincare" width="300" height="300">
+  <p>Hello, my name is Iman, and I am the owner of Sakura Haven. I have a deep admiration for Japanese culture, especially their skincare, which is known for its elegance and ability to give your skin a heavenly glow. If you're a Jdrama fan, you likely appreciate all aspects of Japan, from its traditional food to its skincare, makeup, and antiques. </p>           
+<br>
+  <p>I am here to assist you on your skincare journey. At Sakura Haven, I believe that everyone deserves to feel confident in their own skin.</p>
+    <br>
+    
+
+    <p>Join me in exploring the world of Japanese wellness, and let's embark on this beautiful journey together!</p>   
+    </div>
+ </div>
+</section>
+
+
+
+<!-- Contact section with details and info on how to contact us!  -->
+        
+<section id="contact">
+<div class="Contact">
+<h3>Contact Us</h3>
+<div class="contact-info">
+
+<div>
+    <span class="bold">Phone: </span>
+    <span>020 678 9829</span>
+</div>
+<div>
+    <span class="bold">Email: </span>
+    <span>Sakura.Haven@gmail.com</span>
+ </div>
+</div>
+ <!-- Table created for Opening times -->
+     <h3>Open Times</h3>
+    <div class="table-container">
+
+<table>
+    <tr>
+       <th></th>
+        <th>Open</th>
+        <th>Close</th>
+
+        </tr>
+        <tr>
+            <td>Mon - Fri</td>
+            <td>8:00</td>
+            <td>24:00</td>
+        </tr>
+        <tr>
+            <td>Weekend</td>
+            <td>12:00</td>
+            <td>24:00</td>
+        
+
+    </tr>
+    </table>
+    </div>
+
+    <!-- Address details!  -->
+<h3>Address</h3>
+    <br>
+<p>Sakura Haven, <br>Carnaby St, <br>London</p>    
+
+<!-- Map!  -->
+
+<div class="contact-map-container">
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9932.00649633658!2d-0.1388547999999719!3d51.51318620000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d511378c85%3A0xda5fe61b4e8aa161!2sCarnaby%20St%2C%20London!5e0!3m2!1sen!2suk!4v1730406112028!5m2!1sen!2suk" width="1500" height="300"></iframe>
+ </div>
+</div>
+
+    </section>
+
+
+<!-- This is the footer!  -->
+        
+        <footer>
+        
+        <div class="social-media">
+        
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+
+        </div>
+        <p>&copy; 2024 Sakura Haven. All rights reserved.</p>
+
+      </footer>
+        
+            
+
 
 </body>
 </html>
