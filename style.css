@@ -116,7 +116,7 @@ section {
     color: #333;
     text-align: center;
     background-color: rgba(145, 74, 80, 0.799);
-    
+    padding: 0;
 }
 
 .product-grid {
@@ -163,6 +163,7 @@ h3 {
 
 #about {
    background-color: rgba(145, 74, 80, 0.799);
+   padding: 0;
 }
 
 
@@ -197,7 +198,7 @@ table {
     
     box-shadow: 0 2px 5px rgba(241, 237, 237, 0.1);
     width:100%;
-    max-width: 900px;
+    
     text-align: center;
     margin-left: 10px;
    
@@ -276,6 +277,10 @@ footer {
     nav ul li {
         margin: 10px 0;
     }
+}
+
+@media (max-width: 992px) {
+
 }
 /* Form */
 
