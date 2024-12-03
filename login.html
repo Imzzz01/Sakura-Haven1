@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
+     
+    <link rel="stylesheet" href="style.css">
      
     <title>Win a Free skincare product!</title>
 </head>
@@ -11,18 +12,23 @@
 <!-- A bit of Javascript used here  -->
     
     <form onsubmit="event.preventDefault(); document.getElementById('congrats').style.display = 'block';">
-
-       <!-- Form Header  --> 
-        <header class="form-header">
-           <!-- A Home page button to take you back to Home Page  -->
-            <nav>
-                <ul>
-                    <li><a href="index.html" target="_blank" style="color: black;"  class="btn">Home Page</a></li>
-                </ul>
-            </nav>
-            <h1>Win a free skincare product</h1>
-            <p>Complete our short survey for your chance to win a luxurious product!</p>
-        </header>
+  
+        <header>
+            <!-- Navigation links to different sections.  -->
+                   <div class="logo" aria-label="Sakura Haven Logo">Sakura<span>Haven</span></div>
+                  <nav aria-label="Main Navigation">
+                       <ul class="nav-bar"> 
+                   <li> <a href="index.html" aria-label="Go to Home section">Home</a></li>
+                   <li> <a href="products.html" aria-label="Go to Product section" target="_blank">Products</a></li>
+                   <li> <a href="about.html" aria-label="Go to About Us section">About-us</a></li> 
+                   <li> <a href="contact.html" aria-label="Go to Contact Section">Contact</a></li>
+                   <li> <a href="login.html" aria-label="Go to Login page" target="_blank" class="btn">Form</a></li> 
+               </ul>
+                  
+                  </nav>
+                
+               </header>
+    
  <!-- Personal details  -->
         <fieldset>
         
