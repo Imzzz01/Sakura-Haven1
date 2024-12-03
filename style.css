@@ -198,8 +198,8 @@ table {
   
     background-size: cover;
     border-radius: 10px;
-    
-    box-shadow: 0 2px 5px rgba(241, 237, 237, 0.1);
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
     width:100%;
     
     text-align: center;
@@ -209,8 +209,9 @@ table {
     
 }
 th, td {
+
     border: 1px solid #000000;
-    box-shadow: 0 4px 5px rgba(243, 239, 239, 0.1);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
     padding: 10px;
 }
 
@@ -230,6 +231,7 @@ th {
 }
 
 .contact-info{
+    
    margin-bottom: 20px;
    display: flex;
    flex-direction: column; /* column layout */
@@ -246,7 +248,7 @@ th {
 .Contact h3 {
     font-size: 35px;
     margin: 20px 0;
-
+    color: #ffffff;
     
 }
 
