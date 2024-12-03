@@ -77,6 +77,14 @@ Git commits
 ![image](https://github.com/user-attachments/assets/f20b93a7-6a52-4a17-8613-df7b624a9c34)
 ![image](https://github.com/user-attachments/assets/3a045ab8-a245-48e5-a299-0f3c206b0835)
 
+Html Validation 
+
+index.html
+
+
+
+products.html
+![image](https://github.com/user-attachments/assets/cad8518b-574f-4e84-aa12-bf0472ef83a4)
 
 
 
