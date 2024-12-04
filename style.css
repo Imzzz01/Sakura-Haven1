@@ -33,8 +33,10 @@ span {
 }
 
 .logo {
-    font-size: 1.5rem; /* sets font size */
+    font-size: 17px; /* sets font size */
     font-weight: bold; /* bold logo text */
+    margin-bottom: 10px;
+    
 }
 
 nav ul {
