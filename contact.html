@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
     <title>Contact</title>
 </head>
 <body>
     <header>
         <!-- Navigation links to different sections.  -->
                <div class="logo">Sakura<span>Haven</span></div>
-              <nav aria-label="Main Navigation">
-                   <ul class="nav-bar"> 
-               <li> <a href="index.html" aria-label="Go to Home section" target="_blank">Home</a></li>
-               <li> <a href="products.html" aria-label="Go to Product section" target="_blank">Products</a></li>
-               <li> <a href="about.html" aria-label="Go to About Us section" target="_blank">About-us</a></li> 
-               <li> <a href="contact.html" aria-label="Go to Contact Section" target="_blank">Contact</a></li>
-               <li> <a href="login.html" aria-label="Go to Login page" target="_blank" class="btn">Form</a></li> 
+              <nav  class="navbar navbar-expand-lg navbar-dark" style="color: rgb(255, 255, 255);" aria-label="Main Navigation">
+                   
+                <!--Nav bar toggler-->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarnav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Nav bar links - they will collapse on smaller screens-->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> 
+                    
+               <li class="nav-item"> <a class="nav-link" href="index.html" aria-label="Go to Home section" target="_blank">Home</a></li>
+               <li class="nav-item"> <a class="nav-link" href="products.html" aria-label="Go to Product section" target="_blank">Products</a></li>
+               <li class="nav-item"> <a class="nav-link" href="about.html" aria-label="Go to About Us section" target="_blank">About-us</a></li> 
+               <li class="nav-item"> <a class="nav-link" href="contact.html" aria-label="Go to Contact Section" target="_blank">Contact</a></li>
+               <li class="nav-item"> <a class="nav-link" href="login.html" aria-label="Go to Login page" target="_blank">Form</a></li> 
            </ul>
-              
+              </div>
               </nav>
             
            </header>
