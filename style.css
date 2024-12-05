@@ -149,6 +149,10 @@ section {
     border-radius: 5px;/* rounded corners */
     padding: 10px;  /* padding inside product */
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 
@@ -156,6 +160,7 @@ section {
     max-width: 100%; /* responsive image*/
     height: 250px; 
     object-fit: cover;
+    margin-bottom: 15px;
 }
 
 
