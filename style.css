@@ -5,7 +5,10 @@
     margin: 0;/* Removes default margin */
     padding: 0;/* Removes default padding */
     box-sizing: border-box;/*  */
-    scroll-behavior: smooth; /* smooth scrolling */
+    
+}
+html {
+    scroll-padding-top: 80px; /* smooth scrolling */
 }
 
 body {
@@ -60,8 +63,7 @@ nav ul li a:hover {
 
 /* Section Styles */
 section {
-    padding: 100px 20px; /* paddings set for sections */
-    min-height: 100vh;/* sets the min height of sections */
+    padding-top: 80px;
 }
 
 #home {
@@ -152,15 +154,16 @@ section {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    height: 400px;
 }
 
 
 .product-item img {
     max-width: 100%; /* responsive image*/
-    height: 250px; 
+    height: 200px; 
     object-fit: cover;
     margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 
@@ -180,19 +183,20 @@ h3 {
 }
 
 #about {
-   background-color: rgba(255, 255, 255, 0.799);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://cdn.wallpapersafari.com/86/90/8fFJv4.jpg);
    padding: 0;
 }
 
 .information-container {
    text-align: left;
    display: flex;
+   color: #ffffff;
 
 
 }
 .information-container h2{
     margin: 0%; /* removes margin */
-    color:#020101;
+    color:#ffffff;
     width:100%;
     height:20px;
    
@@ -207,6 +211,7 @@ h3 {
     /* Floats image to the left */
     width: 200px;
     height: 200px;
+    
  
 }
 
