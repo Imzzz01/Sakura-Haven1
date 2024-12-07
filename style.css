@@ -63,13 +63,13 @@ nav ul li a:hover {
 
 /* Section Styles */
 section {
-    padding-top: 80px;
+    padding-top: 80px;/* add space at the top to avoid overlapping with the fixed header */
 }
 
 #home {
     position: relative; 
     height: 140vh; /* sets height of homepage */
-    width: 100%;
+    width: 100%;/* sets the width of homepage */
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://i.ytimg.com/vi/Ts8hZcZMIZE/maxresdefault.jpg);/* background image added */
     background-size: cover; /*covers the page with background image */
     background-position: center; /* centers background image */
@@ -80,137 +80,134 @@ section {
 
 .home-text h5{
     position: relative;
-    color: #ffa343;
-    font-size: 30px;
-    font-weight: 600;
+    color: #ffa343; /* sets text color */
+    font-size: 30px;/* sets font size */
+    font-weight: 600;/* makes text bold */
     margin-bottom: 10px; /* adds space below */
     text-transform: uppercase; /* uppercase text */
     letter-spacing: 6px;/* letter spacing */
-    color: var(--main-color);
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: center; /* centers the text*/
+    text-align: center;/* centers text alignment */
   
     
 }
 
 .home-text h1{
-    font-size: 58px;
-    font-weight: 300;
-    line-height: 1.2; 
-    margin-bottom: 28px; /* space below */
-    text-align: center;
-    color: #ffffff; 
+    font-size: 58px;/* sets font size */
+    font-weight: 300;/* makes text light */
+    line-height: 1.2; /* sets line height */
+    margin-bottom: 28px; /* adds space below*/
+    text-align: center; /* centers the text */
+    color: #ffffff; /* sets text color to white */
     font-family: 'Merienda One', 'Brush Script MT', cursive; /* font family */
     
     
 }
 
 .home-text p{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #ffffff;
-    margin-bottom: 35px;
-    text-align: center;
+    font-size: 20px; /* sets font size */
+    font-weight: 500;/* sets font weight  */
+    line-height: 30px;/* sets line height */
+    color: #ffffff;/* sets text color to white */
+    margin-bottom: 35px;/* adds space below */
+    text-align: center;/* centers the paragraph text */
 
 
 }
 
 .video-container{
-    width: 100%;
-  
-    margin: 0 auto;
-    margin-top: auto;
+    width: 100%;/* sets width to full */
+    margin: 0 auto;/* centers the container */
+    margin-top: auto;/* automatically adjusts top margin */
 
 }
 
 .video-container iframe{
-    width: 100%;
-    height: 450px;
-    border-radius: 8px;
+    width: 100%;/* makes iframe fill the container */
+    height: 450px;/* sets iframe height */
+    border-radius: 8px;/* rounds corners of iframe */
 }
 
 #product {
-    background: #f4f4f4;
-    color: #333;
-    text-align: center;
-    background-color: rgba(255, 253, 254, 0.799);
-    padding: 0;
+    background: #f4f4f4; /* sets background color */
+    color: #333; /* sets text color */
+    text-align: center;/* centers content */
+    background-color: rgba(255, 253, 254, 0.799);/* semi-transparent background */
+    padding: 0; /* removes padding */
+
 }
 
-
-
 .product-item:hover{
-    background-color: rgba(204, 149, 11, 0.799);
+    background-color: rgba(204, 149, 11, 0.799);/* changes background color on hover */
 }
 
 .product-item {
-    background: white;
+    background: white;/* sets the background in this color */
     border: 1px solid #ddd; /* white border */
     border-radius: 5px;/* rounded corners */
     padding: 10px;  /* padding inside product */
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 400px;
+    text-align: center;/* centers the content  */
+    display:flex;/* uses flexbow*/
+    flex-direction: column;/* arranges items in a column */
+    justify-content: space-between;/* adds space between content */
+    height: 400px;/* sets fixed height */
 }
 
 
 .product-item img {
     max-width: 100%; /* responsive image*/
-    height: 200px; 
-    object-fit: cover;
-    margin-bottom: 15px;
-    margin-top: 20px;
+    height: 200px; /* sets height */
+    object-fit: cover;/* ensures image covers its container */
+    margin-bottom: 15px;/* adds space below the image */
+    margin-top: 20px;/* adds space above the image */
 }
 
 
 #contact {
     
-    text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/1611057.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    text-align: center;/* centers the content */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/1611057.jpg);/* background image with gradient overlay */
+    background-size: cover;/* ensures background image covers the area */
+    background-position: center;/* centers the background image*/
+    background-repeat: no-repeat;/* to ensure that the background does not repeat */
     
     
 }
 
 h3 {
-    font-family: 'Merienda One', 'Brush Script MT', cursive;
+    font-family: 'Merienda One', 'Brush Script MT', cursive;/* sets font family */
 }
 
 #about {
-    display: flex;
+    display: flex;/* used flexbox*/
     
 }
 
 .about-image{
-    background: url('skincare.image2.jpg') no repeat center center;
-    background-size: cover;
-    flex: 1;
-    height: 100%;
+    background: url('skincare.image2.jpg') no repeat center center;/* background image */
+    background-size: cover;/* ensures the image covers the container*/
+    flex: 1;/* makes it take equal space with the text  */
+    height: 100%;/* ensures it covers the full height */
 }
-
+/* styling for the about text container */
 .about-text{
-    background-color: #ddd;
-    flex: 1;
-    padding: 20px;
-    height: 100%;
+    background-color: #ddd;/* sets background color */
+    flex: 1;/* makes it take equal space with the image */
+    padding: 20px;/* adds padding */
+    height: 100%;/* ensures it covers the full height */
 }
-
+/* styling for images inside about image */
 .about-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 100%; /* makes image responsive */
+    height: 100%;/* makes image fill container */
+    object-fit: cover;/* ensures image doesn't get distorted */
 }
 #about h2{
-    margin: 0%;
-    color:#000000;
-    width:100%;
-    height:20px;
+    margin: 0%; /* removes any margin */
+    color:#000000;/* sets text color to black */
+    width:100%;/* ensures full width */
+    height:20px;/* sets height*/
    
    
     
@@ -221,96 +218,94 @@ h3 {
 
 
 table-container{
-    margin: 20px auto;
-    display: flex;
-    justify-content: center;
+    margin: 20px auto;/* centers the table container with margin */
+    display: flex;/* adds flexbox */
+    justify-content: center;/* centers the content */
     
    
    
 }
 table {
   
-    background-size: cover;
-    border-radius: 10px;
-    color: #ffffff;
-    box-shadow: 0 2px 5px rgb(0, 0, 0);
-    width:100%;
+    background-size: cover;/*  ensures table background covers the area  */
+    border-radius: 10px;/* round corners of the table*/
+    color: #ffffff;/* sets text color to white */
+    box-shadow: 0 2px 5px rgb(0, 0, 0);/* adds shadow for depth */
+    width:100%;/* ensures table takes full width */
     
-    text-align: center;
-    margin-left: 10px;
+    text-align: center;/* centers text inside the table*/
+    margin-left: 10px;/* adds left margin */
    
    
     
 }
 th, td {
 
-    border: 1px solid #000000;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    border: 1px solid #000000; /* add border to table cells */
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);/* adds shadow to cells */
+    padding: 10px;/* adds padding*/
 }
 
-th {
-    background-color: var(--main-color);
-}
+
 
 .contact-map-container{
-    display: flex;
-    justify-content: flex-start;
+    display: flex;/* ensures it covers the full height */
+    justify-content: flex-start;/* ensures it covers the full height */
     margin-top: 20px; /* margin above */
     margin-left: 20px;/* margin to the left */
 }
 
 .contact-map-container iframe {
-     width: 100%;
+     width: 100%; /* makes iframe fill container */
 }
 
 .contact-info{
     
-   margin-bottom: 20px;
-   display: flex;
+   margin-bottom: 20px; /* adds bottom margin */
+   display: flex;/* uses flexbox*/
    flex-direction: column; /* column layout */
-   align-items: center;
+   align-items: center;/* ensures it covers the full height */
    
 }
 .bold{
-    font-weight: bold;
+    font-weight: bold;/* makes text bold*/
 }
 
 
 
 
 .Contact h3 {
-    font-size: 35px;
-    margin: 20px 0;
-    color: #ffffff;
+    font-size: 35px; /* sets font size */
+    margin: 20px 0;/* sets margin */
+    color: #ffffff;/* sets text color */
     
 }
 
 
 /* Footer Styles */
 footer {
-    text-align: center;
-    background: #333;
-    color: white;
-    padding: 20px 10px;
+    text-align: center;/* centers contents */
+    background: #333;/* sets background color */
+    color: white;/* sets text color */
+    padding: 20px 10px;/* sets padding */
 }
 
 .social-media a {
-    color: #ffa343;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 1.2rem;
+    color: #ffa343;/* sets link color */
+    text-decoration: none;/* removes underline */
+    margin: 0 10px;/* adds horizontal margin */
+    font-size: 1.2rem;/* sets font text*/
 }
 
 .social-media a:hover {
-    text-decoration: underline;
+    text-decoration: underline;/* adds underline on hover */
 }
 
 /* Responsive Design */
-
+/* styles for screens smaller than 768px */
 @media(max-width: 768px) {
     h1{
-        font-size: 1.5rem;
+        font-size: 1.5rem;  /* reduces font size of h1 */
     }
 }
 
@@ -318,23 +313,23 @@ footer {
 /* Form */
 
 form {
-	width: 90%; /* responsive width */
-    max-width: 600px; /* maximum width */
-	padding: 20px;
-	border-radius: 8px;
-	margin: 25px auto;
-	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/2749372.jpg);
-    background-size: cover;
-    box-shadow: white;
-    color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* soft shadow */
+	width: 90%; /* makes form responsive */
+    max-width: 600px; /* limits maximum form width*/
+	padding: 20px;/* adds padding */
+	border-radius: 8px;/* rounds corners */
+	margin: 25px auto;/* centers form with margins */
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/2749372.jpg);/* background with gradient and image */
+    background-size: cover;/* ensures background covers the form */
+    box-shadow: white;/* adds shadow */
+    color: #fff;/* sets text color to white */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* adds soft shadow */
 
 }
    
 
     fieldset{
-    border: none;
-    margin-top: 20px;
+    border: none;/* removes fieldset border */
+    margin-top: 20px;/* adds margin above */
     }
     label{
     display: block; /* block display for labels */
@@ -342,38 +337,37 @@ form {
     }
     
     input[type="text"],
-    input[type="email"],
     input[type="skincare"],
     select,
     textarea{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 100%;/* makes inputs take full width */
+    padding: 10px;/* adds padding */
+    margin-bottom: 15px;/* adds space below */
+    border: 1px solid #ccc;/* add light border */
+    border-radius: 4px;/* rounds corners */
     }
     input[type="submit"],
     input[type="reset"]{
-    width: 48;
-    padding: 10px;
-    background-color: #5e361b;
-    color: white;
-    border: none;
-    border-radius: 4px;
+    width: 48;/* makes buttons take 48% width */
+    padding: 10px;/* adds padding */
+    background-color: #5e361b;/* sets background color */
+    color: white;/* sets text color to white */
+    border: none;/* removes border */
+    border-radius: 4px;/* rounds corners */
     cursor: pointer; /* pointers cursor on hover */
-    margin-top: 10px;
+    margin-top: 10px;/* adds top margin */
     }
     
     input[type="submit"]:hover{
-    background-color: #ffa343;
+    background-color: #ffa343;/* changes background color on hover */
     }
     .message {
-    display: none;
-    background-color: 6f0a63;
-    padding: 20px;
-    color: black;
-    margin-top: 20px;
-    text-align: center;
+    display: none;/* hides image by default*/
+    background-color: 6f0a63;/* sets background color */
+    padding: 20px;/* adds padding */
+    color: black;/* sets text color */
+    margin-top: 20px;/* adds margin */
+    text-align: center;/* centers text */
     }
 
    
@@ -381,22 +375,22 @@ form {
     @media (max-width: 600px) {
     input[type="submit"],
     input[type="reset"]{
-    width: 100%;
+    width: 100%;/* ensures it covers the full height */
     }
 
     .form-header h1 {
         
         height: 50px;
-        font-size: 15px;
+        font-size: 15px;/* ensures it covers the full height */
         
     }
     }    
 
 
 .form-header{
-    font-size: 15px;
+    font-size: 15px;/* ensures it covers the full height */
     
-    color: #000;
-    background-color: #fff;
+    color: #000;/* ensures it covers the full height */
+    background-color: #fff;/* ensures it covers the full height */
     
 }
