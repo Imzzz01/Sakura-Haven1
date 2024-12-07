@@ -116,18 +116,6 @@ section {
 
 }
 
-.video-container{
-    width: 100%;/* sets width to full */
-    margin: 0 auto;/* centers the container */
-    margin-top: auto;/* automatically adjusts top margin */
-
-}
-
-.video-container iframe{
-    width: 100%;/* makes iframe fill the container */
-    height: 450px;/* sets iframe height */
-    border-radius: 8px;/* rounds corners of iframe */
-}
 
 #product {
     background: #f4f4f4; /* sets background color */
@@ -167,7 +155,7 @@ section {
 #contact {
     
     text-align: center;/* centers the content */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/1611057.jpg);/* background image with gradient overlay */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://th.bing.com/th/id/R.f25e16ecc4b444fcb46416ae98be4ce0?rik=hkcr7gWFxEbkDA&pid=ImgRaw&r=0);/* background image with gradient overlay */
     background-size: cover;/* ensures background image covers the area */
     background-position: center;/* centers the background image*/
     background-repeat: no-repeat;/* to ensure that the background does not repeat */
@@ -235,7 +223,7 @@ table {
     
     text-align: center;/* centers text inside the table*/
     margin-left: 10px;/* adds left margin */
-   
+    table-layout: fixed; /* ensures that columns have a fixed width */
    
     
 }
@@ -259,6 +247,12 @@ th, td {
      width: 100%; /* makes iframe fill container */
 }
 
+.open-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact-info{
     
    margin-bottom: 20px; /* adds bottom margin */
@@ -274,11 +268,43 @@ th, td {
 
 
 
-.Contact h3 {
+#contact  h3 {
     font-size: 35px; /* sets font size */
     margin: 20px 0;/* sets margin */
     color: #ffffff;/* sets text color */
     
+}
+
+#contact p{
+    color: #ffffff;
+}
+
+
+.row>.col-lg-4, .row> .col-md-6,.row> .col-sm-12{
+    padding-left: 10px; /* adds left padding between columns */
+    padding-right:10px; /* adds right padding between columns */
+}
+
+.embed-responsive {
+    margin-bottom: 20px; /* adds margin below each video */
+}
+
+.embed-responsive-16by9{
+    position: relative;/* */
+    display: block; /* block-level element */
+    height: 0;/* height is set to 0, padding bottom creates the ratio */
+    padding-bottom: 56.25%;/* maintains 16:9 aspect ratio*/
+    overflow: hidden;/* prevents the content from overflowing */
+    max-width: 100%;/* ensures the element fills the width of the parent container */
+
+}
+
+.embed-responsive iframe{
+    position: absolute;/* positions iframe inside the container */
+    top: 0; /* aligns iframe at the top */
+    left:0;/* aligns iframe to the left */
+    width: 100%;/* makes the iframe take up full width of the container */
+    height: 100%; /* makes the iframe take up the full height of the container */
 }
 
 
