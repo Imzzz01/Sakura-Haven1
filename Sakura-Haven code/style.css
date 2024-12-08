@@ -308,10 +308,7 @@ th, td {
 }
 
 
-.row>.col-lg-4, .row> .col-md-6,.row> .col-sm-12{
-    padding-left: 10px; /* adds left padding between columns */
-    padding-right:10px; /* adds right padding between columns */
-}
+
 
 .embed-responsive {
     margin-bottom: 20px; /* adds margin below each video */
@@ -324,7 +321,8 @@ th, td {
     padding-bottom: 56.25%;/* maintains 16:9 aspect ratio*/
     overflow: hidden;/* prevents the content from overflowing */
     max-width: 100%;/* ensures the element fills the width of the parent container */
-
+    width: 80%;
+    margin: 0 auto;
 }
 
 .embed-responsive iframe{
@@ -334,6 +332,8 @@ th, td {
     width: 100%;/* makes the iframe take up full width of the container */
     height: 100%; /* makes the iframe take up the full height of the container */
 }
+
+
 
 
 /* Footer Styles */
