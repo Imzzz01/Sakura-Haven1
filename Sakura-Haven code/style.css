@@ -70,7 +70,7 @@ section {
     position: relative; 
     height: 140vh; /* sets height of homepage */
     width: 100%;/* sets the width of homepage */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://i.ytimg.com/vi/Ts8hZcZMIZE/maxresdefault.jpg);/* background image added */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://th.bing.com/th/id/R.cd843fb371d5e9cba8d9383a15fdf2ea?rik=z3XtccfVIDm0TA&pid=ImgRaw&r=0);/* background image added */
     background-size: cover; /*covers the page with background image */
     background-position: center; /* centers background image */
     display: flex;
@@ -155,7 +155,7 @@ section {
 #contact {
     
     text-align: center;/* centers the content */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://th.bing.com/th/id/R.f25e16ecc4b444fcb46416ae98be4ce0?rik=hkcr7gWFxEbkDA&pid=ImgRaw&r=0);/* background image with gradient overlay */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://th.bing.com/th/id/OIP.pvRwO2n_ufSZ8CcO8PQ-pQHaEu?rs=1&pid=ImgDetMain);/* background image with gradient overlay */
     background-size: cover;/* ensures background image covers the area */
     background-position: center;/* centers the background image*/
     background-repeat: no-repeat;/* to ensure that the background does not repeat */
@@ -177,6 +177,7 @@ h3 {
     background-size: cover;/* ensures the image covers the container*/
     flex: 1;/* makes it take equal space with the text  */
     height: 100%;/* ensures it covers the full height */
+    min-width: 250px;  /* ensures a minimum width for better scalling on smaller screens */
 }
 /* styling for the about text container */
 .about-text{
@@ -190,20 +191,47 @@ h3 {
     width: 100%; /* makes image responsive */
     height: 100%;/* makes image fill container */
     object-fit: cover;/* ensures image doesn't get distorted */
+    
 }
 #about h2{
     margin: 0%; /* removes any margin */
     color:#000000;/* sets text color to black */
     width:100%;/* ensures full width */
     height:20px;/* sets height*/
-   
-   
-    
-    
-    
-   
+  
 }
 
+@media (max-width: 768px) {
+    #about {
+    flex-direction: row;
+    }
+
+    .about-image {
+        min-width: 100%;
+
+    }
+
+    .about-text{
+        padding: 10px;
+
+    }
+    .about-image img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #about{
+        padding: 10px;
+    }
+    .about-text {
+        padding: 10px;
+    }
+    .about-text {
+        padding: 10px;
+    }
+}
 
 table-container{
     margin: 20px auto;/* centers the table container with margin */
