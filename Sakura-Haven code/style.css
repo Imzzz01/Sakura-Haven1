@@ -155,7 +155,7 @@ section {
 #contact {
     
     text-align: center;/* centers the content */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://th.bing.com/th/id/OIP.pvRwO2n_ufSZ8CcO8PQ-pQHaEu?rs=1&pid=ImgDetMain);/* background image with gradient overlay */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/2749372.jpg);/* background with gradient and image */
     background-size: cover;/* ensures background image covers the area */
     background-position: center;/* centers the background image*/
     background-repeat: no-repeat;/* to ensure that the background does not repeat */
@@ -245,7 +245,7 @@ table {
   
     background-size: cover;/*  ensures table background covers the area  */
     border-radius: 10px;/* round corners of the table*/
-    color: #ffffff;/* sets text color to white */
+    color: black;/* sets text color to white */
     box-shadow: 0 2px 5px rgb(0, 0, 0);/* adds shadow for depth */
     width:100%;/* ensures table takes full width */
     
@@ -310,28 +310,6 @@ th, td {
 
 
 
-.embed-responsive {
-    margin-bottom: 20px; /* adds margin below each video */
-}
-
-.embed-responsive-16by9{
-    position: relative;/* */
-    display: block; /* block-level element */
-    height: 0;/* height is set to 0, padding bottom creates the ratio */
-    padding-bottom: 56.25%;/* maintains 16:9 aspect ratio*/
-    overflow: hidden;/* prevents the content from overflowing */
-    max-width: 100%;/* ensures the element fills the width of the parent container */
-    width: 80%;
-    margin: 0 auto;
-}
-
-.embed-responsive iframe{
-    position: absolute;/* positions iframe inside the container */
-    top: 0; /* aligns iframe at the top */
-    left:0;/* aligns iframe to the left */
-    width: 100%;/* makes the iframe take up full width of the container */
-    height: 100%; /* makes the iframe take up the full height of the container */
-}
 
 
 
