@@ -147,7 +147,7 @@ section {
 
 .product-item img {
     max-width: 100%; /* responsive image*/
-    height: 200px; /* sets height */
+    height: 400px; /* sets height */
     object-fit: cover;/* ensures image covers its container */
     margin-bottom: 15px;/* adds space below the image */
     margin-top: 20px;/* adds space above the image */
