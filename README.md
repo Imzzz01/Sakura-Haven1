@@ -74,8 +74,13 @@ To access my code:
 
 Git commits
 
-![image](https://github.com/user-attachments/assets/f20b93a7-6a52-4a17-8613-df7b624a9c34)
-![image](https://github.com/user-attachments/assets/3a045ab8-a245-48e5-a299-0f3c206b0835)
+![image](https://github.com/user-attachments/assets/967c03f1-f0c8-4fc9-93d3-772be43533d8)
+![image](https://github.com/user-attachments/assets/d5adb2a8-9590-447d-9401-4eae6e78920d)
+![image](https://github.com/user-attachments/assets/5ca73785-7035-4f45-ad61-8c295119b98a)
+![image](https://github.com/user-attachments/assets/5d52bf8f-bd86-4f04-bfee-b9389209c3cd)
+
+
+
 
 Html Validation 
 
@@ -93,6 +98,22 @@ Reference:
 https://www.w3schools.com/Css/css_navbar.asp
 https://developer.mozilla.org/en-US/docs/Web/HTML
 https://getbootstrap.com/
+
+Pages screenshot
+
+![image](https://github.com/user-attachments/assets/085566cd-f795-4cb9-ab1d-63e947e42ee7)
+![image](https://github.com/user-attachments/assets/8d66f8cd-a8c2-4396-809b-32ce00eba5f7)
+![image](https://github.com/user-attachments/assets/8b25b36c-450a-4a75-a8f0-957605ba3095)
+![image](https://github.com/user-attachments/assets/460525f5-64a5-470c-b2c6-062420223c91)
+![image](https://github.com/user-attachments/assets/4abd407d-e377-4ea4-a670-86806fec08b6)
+![image](https://github.com/user-attachments/assets/45cc34df-b219-4ffc-98b6-00439bade33f)
+![image](https://github.com/user-attachments/assets/a9d00768-36c6-4f1a-861f-fb19068b3359)
+
+
+
+
+
+
 
 
 ![gant chart](https://github.com/user-attachments/assets/c091b564-73de-4e9c-9b69-dbb19edf01e8)
