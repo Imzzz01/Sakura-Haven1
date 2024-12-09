@@ -125,7 +125,7 @@ section {
     text-align: center;/* centers content */
     background-color: rgba(255, 253, 254, 0.799);/* semi-transparent background */
     padding: 0; /* removes padding */
-
+    
 }
 
 .product-item:hover{
@@ -141,13 +141,13 @@ section {
     display:flex;/* uses flexbow*/
     flex-direction: column;/* arranges items in a column */
     justify-content: space-between;/* adds space between content */
-    height: 400px;/* sets fixed height */
+    height: 450px;/* sets fixed height */
 }
 
 
 .product-item img {
     max-width: 100%; /* responsive image*/
-    height: 400px; /* sets height */
+    height: 300px; /* sets height */
     object-fit: cover;/* ensures image covers its container */
     margin-bottom: 15px;/* adds space below the image */
     margin-top: 20px;/* adds space above the image */
@@ -155,6 +155,7 @@ section {
 
 h3 {
     font-family: 'Merienda One', 'Brush Script MT', cursive;/* sets font family */
+   
 }
 
 
