@@ -184,7 +184,7 @@ h3 {
 /* styling for images inside about image */
 .about-image img{
     width: 100%; /* makes image responsive */
-    height: 100%;/* makes image fill container */
+    height: 400px;/* makes image fill container */
     object-fit: cover;/* ensures image doesn't get distorted */
     
 }
