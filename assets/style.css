@@ -180,6 +180,7 @@ h3 {
     flex: 1;/* makes it take equal space with the image */
     padding: 20px;/* adds padding */
     height: 600px;/* ensures it covers the full height */
+    
 }
 /* styling for images inside about image */
 .about-image img{
