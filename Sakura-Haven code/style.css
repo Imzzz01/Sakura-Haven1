@@ -70,7 +70,7 @@ section {
     position: relative; 
     height: 140vh; /* sets height of homepage */
     width: 100%;/* sets the width of homepage */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://th.bing.com/th/id/R.cd843fb371d5e9cba8d9383a15fdf2ea?rik=z3XtccfVIDm0TA&pid=ImgRaw&r=0);/* background image added */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/18518.jpg);/* background image added */
     background-size: cover; /*covers the page with background image */
     background-position: center; /* centers background image */
     display: flex;
@@ -155,7 +155,7 @@ section {
 #contact {
     
     text-align: center;/* centers the content */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/2749372.jpg);/* background with gradient and image */
+    background:  url(https://images.pexels.com/photos/1556704/pexels-photo-1556704.jpeg?cs=srgb&dl=bright-bulb-burnt-1556704.jpg&fm=jpg);/* background with gradient and image */
     background-size: cover;/* ensures background image covers the area */
     background-position: center;/* centers the background image*/
     background-repeat: no-repeat;/* to ensure that the background does not repeat */
@@ -242,11 +242,11 @@ table-container{
    
 }
 table {
-  
+    background-color: #572f04;
     background-size: cover;/*  ensures table background covers the area  */
     border-radius: 10px;/* round corners of the table*/
-    color: black;/* sets text color to white */
-    box-shadow: 0 2px 5px rgb(0, 0, 0);/* adds shadow for depth */
+    color: #ffffff;/* sets text color to white */
+    box-shadow: 0 2px 5px rgb(7, 7, 7);/* adds shadow for depth */
     width:100%;/* ensures table takes full width */
     
     text-align: center;/* centers text inside the table*/
@@ -258,7 +258,7 @@ table {
 th, td {
 
     border: 1px solid #000000; /* add border to table cells */
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);/* adds shadow to cells */
+    box-shadow: 0 4px 5px rgb(7, 7, 7);/* adds shadow to cells */
     padding: 10px;/* adds padding*/
 }
 
@@ -282,7 +282,7 @@ th, td {
 }
 
 .contact-info{
-    
+
    margin-bottom: 20px; /* adds bottom margin */
    display: flex;/* uses flexbox*/
    flex-direction: column; /* column layout */
@@ -291,6 +291,7 @@ th, td {
 }
 .bold{
     font-weight: bold;/* makes text bold*/
+    
 }
 
 
