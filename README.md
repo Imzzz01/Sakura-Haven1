@@ -126,5 +126,10 @@ Pages screenshot
 ![Wframe1](https://github.com/user-attachments/assets/5c547e91-c345-4260-8b29-8743239946aa)
 ![wframe2](https://github.com/user-attachments/assets/b9c1244f-1bbf-4e95-afdb-12dff8c66055)
 
+New Wireframe:
+
+![image](https://github.com/user-attachments/assets/8206423b-e02c-46f6-b644-b585e0746c13)
+![image](https://github.com/user-attachments/assets/3e70db9f-75d6-43d2-b325-6ea247b64b87)
+
 ![user query](https://github.com/user-attachments/assets/5495cf40-5a67-45c7-9619-cb92c5da3282)
 
