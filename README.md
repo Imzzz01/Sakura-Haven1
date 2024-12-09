@@ -74,8 +74,13 @@ To access my code:
 
 Git commits
 
-![image](https://github.com/user-attachments/assets/f20b93a7-6a52-4a17-8613-df7b624a9c34)
-![image](https://github.com/user-attachments/assets/3a045ab8-a245-48e5-a299-0f3c206b0835)
+![image](https://github.com/user-attachments/assets/967c03f1-f0c8-4fc9-93d3-772be43533d8)
+![image](https://github.com/user-attachments/assets/d5adb2a8-9590-447d-9401-4eae6e78920d)
+![image](https://github.com/user-attachments/assets/5ca73785-7035-4f45-ad61-8c295119b98a)
+![image](https://github.com/user-attachments/assets/5d52bf8f-bd86-4f04-bfee-b9389209c3cd)
+
+
+
 
 Html Validation 
 
