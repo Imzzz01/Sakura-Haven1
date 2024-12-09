@@ -94,6 +94,22 @@ https://www.w3schools.com/Css/css_navbar.asp
 https://developer.mozilla.org/en-US/docs/Web/HTML
 https://getbootstrap.com/
 
+Pages screenshot
+
+![image](https://github.com/user-attachments/assets/085566cd-f795-4cb9-ab1d-63e947e42ee7)
+![image](https://github.com/user-attachments/assets/8d66f8cd-a8c2-4396-809b-32ce00eba5f7)
+![image](https://github.com/user-attachments/assets/8b25b36c-450a-4a75-a8f0-957605ba3095)
+![image](https://github.com/user-attachments/assets/460525f5-64a5-470c-b2c6-062420223c91)
+![image](https://github.com/user-attachments/assets/4abd407d-e377-4ea4-a670-86806fec08b6)
+![image](https://github.com/user-attachments/assets/45cc34df-b219-4ffc-98b6-00439bade33f)
+![image](https://github.com/user-attachments/assets/a9d00768-36c6-4f1a-861f-fb19068b3359)
+
+
+
+
+
+
+
 
 ![gant chart](https://github.com/user-attachments/assets/c091b564-73de-4e9c-9b69-dbb19edf01e8)
 ![tst1 1](https://github.com/user-attachments/assets/f78ea2c5-87ec-492a-b3e3-7feef5a4d67f)
