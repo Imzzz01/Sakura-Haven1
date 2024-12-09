@@ -173,7 +173,9 @@ h3 {
 }
 
 .about-image{
-    background: url('skincare.image2.jpg') no repeat center center;/* background image */
+    background-image: url('skincare.image2.jpg');/* background image */
+    background-repeat: no-repeat;/* ensures the background does not repeat */
+    background-position: center center;/* centers the background image */
     background-size: cover;/* ensures the image covers the container*/
     flex: 1;/* makes it take equal space with the text  */
     height: 100%;/* ensures it covers the full height */
@@ -276,9 +278,9 @@ th, td {
 }
 
 .open-time {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;/* flexbox used */
+    justify-content: center; /* centers contents */
+    align-items: center; /* centers contents */
 }
 
 .contact-info{
@@ -305,10 +307,14 @@ th, td {
 }
 
 #contact p{
-    color: #ffffff;
+    color: #ffffff;  /* sets text color */
 }
-
-
+/* style for Video */
+.embed-responsive-item{
+    border: none; /* sets text color */
+    width: 100%;/* sets width of video*/
+    height: 300px;/* sets height of video */
+}
 
 
 
@@ -353,7 +359,7 @@ form {
 	margin: 25px auto;/* centers form with margins */
 	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/2749372.jpg);/* background with gradient and image */
     background-size: cover;/* ensures background covers the form */
-    box-shadow: white;/* adds shadow */
+    
     color: #fff;/* sets text color to white */
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* adds soft shadow */
 
@@ -371,6 +377,7 @@ form {
     
     input[type="text"],
     input[type="skincare"],
+    input[type="email"],
     select,
     textarea{
     width: 100%;/* makes inputs take full width */
@@ -381,7 +388,7 @@ form {
     }
     input[type="submit"],
     input[type="reset"]{
-    width: 48;/* makes buttons take 48% width */
+    width: 48px;/* makes buttons take 48% width */
     padding: 10px;/* adds padding */
     background-color: #5e361b;/* sets background color */
     color: white;/* sets text color to white */
@@ -396,7 +403,6 @@ form {
     }
     .message {
     display: none;/* hides image by default*/
-    background-color: 6f0a63;/* sets background color */
     padding: 20px;/* adds padding */
     color: black;/* sets text color */
     margin-top: 20px;/* adds margin */
