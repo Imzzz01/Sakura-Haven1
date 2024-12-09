@@ -4,6 +4,8 @@
  
 Sakura Haven is a website I have created, which is entirely dedicated towards promoting Japanese Skincare and beauty products. My website serves as an educational space where new user can explore the rich heritage of Japanese beauty rituals, while easily accessing high-quality skincare products. My goal is to bridge traditional Japanese skincare practices with modern customer needs, creating a wonderful experience that emphasizes wellness and self-care.
 
+We seek to combine the timeless wisdom of traditional Japanese skincare practices with the modern-day needs and conveniences of today's beauty enthusiasts. By highlighting ingredients such as matcha, camellia oil, and rice bran-known for their nourishing and rejuvenating properties-our website introduces users to skincare rituals that have been honed over centuries. Our goal is to educate our future customers on the benefits and transformative effects of these skincare traditions.
+
 Target Audience 
 The target audience for Sakura Haven:
 
@@ -15,7 +17,13 @@ The target audience for Sakura Haven:
 
 4. Models/actors etc: Individuals, who want to stay youthful and look younger every time they're on screen. 
 
-5. Health-Conscious Customers: Those who are looking for natural ingredients based skincare. 
+5. Health-Conscious Customers: Those who are looking for natural ingredients based skincare.
+
+For those fasinated by Japanese dramas (Jdramas), Sakura Haven connects the allure of Japanese Beauty rituals portrayed in media with real, authentic products to achieve radiant, youthful skin.
+
+One of the key purposes of Sakura Haven is to empower individuals to take control of their skincare routines, regardless of their level of experience. Whether you're a complete newbie looking for simple guidance or an experienced beauty enthusiast seeking to elevate your routine, our educational content, product recommendations, and skincare advice cater to all levels. The website's structure is clear, informative, and accessible which helps users navigate their skincare journey with confidence.
+
+Sakura Haven stands committed to promoting natural, sustainable beauty solutons that honor both our customers and the planet. Our carefully selected products are sourced with the utmost care to ensure they meet ethical standards of production. We emphasize the importance of clean beauty, encouraging the use of natural ingredients that are not only effective but also environmentally conscious. 
 
 Design Rationale 
 Aesthetic and Branding
@@ -48,6 +56,10 @@ Blog section: I have this vision of adding a blog, which will feature educationa
 User reviews: Adding a User review section will allow customers to share their feedback and experiences with our products. This will contribute to customer relationship management (CRM) and build trust in our brand. 
 
 Sakura Haven will evolve to meet the needs of our audience. It will aim to establish itself as a leading destination for those seeking authentic Japanese skincare products.
+
+Sakura Haven aims to become the go-to destination for authentic Japanese skincare products, elevating their accessibility to an international market. We intend to expand our product offerings continually, ensuring that the latest innovations in Japanese beauty are available to our customers. With a focus on authenticity, quality and customer satisfaction, we are setting a new standard for Japanese skincare that blends tradition with modern innovation.
+
+Through these goals, Sakura Haven is more than a online website, it is a journey into the hearts of Japanese skincare, where beauty, tradition and wellness converge to provide our users with a truly transformative experience.
 
 How to have access to my Website (Sakura Haven) 
 
@@ -125,6 +137,11 @@ Pages screenshot
 
 ![Wframe1](https://github.com/user-attachments/assets/5c547e91-c345-4260-8b29-8743239946aa)
 ![wframe2](https://github.com/user-attachments/assets/b9c1244f-1bbf-4e95-afdb-12dff8c66055)
+
+New Wireframe:
+
+![image](https://github.com/user-attachments/assets/8206423b-e02c-46f6-b644-b585e0746c13)
+![image](https://github.com/user-attachments/assets/3e70db9f-75d6-43d2-b325-6ea247b64b87)
 
 ![user query](https://github.com/user-attachments/assets/5495cf40-5a67-45c7-9619-cb92c5da3282)
 
