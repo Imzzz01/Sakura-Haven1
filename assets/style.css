@@ -363,7 +363,6 @@ form {
 
 }
    
-
     fieldset{
     border: none;/* removes fieldset border */
     margin-top: 20px;/* adds margin above */
@@ -406,23 +405,6 @@ form {
     margin-top: 20px;/* adds margin */
     text-align: center;/* centers text */
     }
-
-   
-    /* For smaller screens  */
-    @media (max-width: 600px) {
-    input[type="submit"],
-    input[type="reset"]{
-    width: 100%;/* ensures it covers the full height */
-    }
-
-    .form-header h1 {
-        
-        height: 50px;/* sets height of header */
-        font-size: 15px;/* ensures it covers the full height */
-        
-    }
-    }    
-
 
 .form-header{
     font-size: 15px;/* ensures it covers the full height */

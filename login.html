@@ -52,28 +52,28 @@
                </header>
     
  <!-- Personal details  -->
-        <fieldset>
+        <fieldset class="container">
         
-        <legend style="text-align: center; margin-top: 60px;">Your Details</legend>
+        <legend class="mt-5" style="text-align: center; margin-top: 60px;">Your Details</legend>
     
-    <div>
-       
+    <div class="row">
+       <div class="col-md-6 mb-3">
      <!-- First Name  -->
        <label for="fname" class="block-label">First Name</label>
     <input type="text" name="fname" id="fname" placeholder="Enter your First name" required>
     </div>
-    <div>
+    <div class="col-md-6 mb-3">
          <!-- Last Name  -->
     <label for="lname">Last Name</label>
     <input type="text" name="lname" id="lname" placeholder="Enter your Last name" required>
 </div>
-    <div>
+    <div class="col-md-6 mb-3">
          <!-- Email Address  -->
     <label for="email">Email</label>
     <input type="email" name="email" id="email" placeholder="Enter your Email" required>
      
    </div>
-   <div>
+   <div class="col-md-6 mb-3">
     <!-- Ages Drop down  -->
     <label for="age" class="block-label">Age</label>
     <select id="age" name="age" required>
@@ -85,14 +85,15 @@
         
     </select>
 </div>
-</fieldset>
+</div>
+</fieldset class="container">
      <!-- Skincare product fieldset  -->
 <fieldset>
         <!-- Product input  -->
         <legend>Our Products</legend>
-        <div>
-            <label for="fav-skincare" class="block-label">Which Skincare product do you use on a daily basis?</label>
-            <input id="fav-skincare" list="skincare" name="fav-skincare" required>
+        <div class="mb-3">
+            <label for="fav-skincare" class="form-label">Which Skincare product do you use on a daily basis?</label>
+            <input id="fav-skincare" list="skincare" name="fav-skincare" class="form-control" required>
             <!-- Skincare dropdown  -->
             <datalist id="skincare">
                 <option value="Cleanser"></option>
@@ -107,32 +108,42 @@
             
     </fieldset>
 <!-- Radio Purchases -->
+ <div class="container">
     <p>How often do you buy skincare products?</p>
-   
-    <label for="once-a-week">Once a week</label>
-    <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
-   
-    <label for="twice-a-week">Twice a week</label>
-    <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" required>
-    
-    <label for="once-a-month">Once a month</label>
-    <input id="once-a-month" name="visit-frequency" value="once-a-month" type="radio" required>
-    
-    <label for="not-often">Not often</label>
-    <input id="not-often" name="visit-frequency" value="not-often" type="radio" required>
-    
+    <div class="form-check">
+    <label for="once-a-week" class="form-check-label">Once a week</label>
+    <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" class="form-check-input" required>
+   </div>
+   <div class="form-check">
+    <label for="twice-a-week" class="form-check-label">Twice a week</label>
+    <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" class="form-check-input" required>
+    </div>
+    <div class="form-check">
+    <label for="once-a-month" class="form-check-label">Once a month</label>
+    <input id="once-a-month" name="visit-frequency" value="once-a-month" type="radio" class="form-check-input"  required>
+    </div>
+    <div class="form-check">
+    <label for="not-often" class="form-check-label">Not often</label>
+    <input id="not-often" name="visit-frequency" value="not-often" type="radio" class="form-check-input" required>
+    </div>
+ </div>
  <!-- Feedback fieldset  -->
-    <fieldset>
+    <fieldset class="container">
         <legend>Feedback</legend>
-<label for="feedback" class="block-label">What can we do to improve your experience at Sakura Haven?</label>
+        <div class="mb-3">
+<label for="feedback" class="form-label">What can we do to improve your experience at Sakura Haven?</label>
     <br>
-    <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
-    
+    <textarea id="feedback" rows="4" cols="87" name="feedback" class="form-control"></textarea>
+    </div>
 </fieldset>
+
+<div class="container">
+ <div class="mb-3">
     <!-- Submit and reset   -->
-   <input type="submit" class="block-label" value="Enter prize draw">
-   <input type="reset" value="Reset Form">
-     
+   <input type="submit" class="btn btn-primary" value="Enter prize draw">
+   <input type="reset" class="btn btn-secondary" value="Reset Form">
+     </div>
+     </div>
 </form>
  <!-- Congratulations Message -->
 <div id="congrats" class="message" style="color: black;">
