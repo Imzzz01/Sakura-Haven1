@@ -80,14 +80,19 @@ Git commits
 Html Validation 
 
 index.html
+![image](https://github.com/user-attachments/assets/6ed58e58-fb16-4ed7-a2b3-46ae00dcced1)
+
+style.css
+![image](https://github.com/user-attachments/assets/f750fbef-73d0-4e78-905c-54756966899e)
 
 
+login.html
+![image](https://github.com/user-attachments/assets/498aa890-e58b-454f-8c18-f266f39d7b33)
 
-products.html
-![image](https://github.com/user-attachments/assets/cad8518b-574f-4e84-aa12-bf0472ef83a4)
-
-
-
+Reference:
+https://www.w3schools.com/Css/css_navbar.asp
+https://developer.mozilla.org/en-US/docs/Web/HTML
+https://getbootstrap.com/
 
 
 ![gant chart](https://github.com/user-attachments/assets/c091b564-73de-4e9c-9b69-dbb19edf01e8)
