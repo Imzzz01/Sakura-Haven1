@@ -179,12 +179,12 @@ h3 {
     background-color: #ddd;/* sets background color */
     flex: 1;/* makes it take equal space with the image */
     padding: 20px;/* adds padding */
-    height: 100%;/* ensures it covers the full height */
+    height: 600px;/* ensures it covers the full height */
 }
 /* styling for images inside about image */
 .about-image img{
     width: 100%; /* makes image responsive */
-    height: 400px;/* makes image fill container */
+    height: 600px;/* makes image fill container */
     object-fit: cover;/* ensures image doesn't get distorted */
     
 }
