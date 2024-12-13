@@ -133,12 +133,25 @@ Pages screenshot
 
 
 ![gant chart](https://github.com/user-attachments/assets/c091b564-73de-4e9c-9b69-dbb19edf01e8)
-![tst1 1](https://github.com/user-attachments/assets/f78ea2c5-87ec-492a-b3e3-7feef5a4d67f)
-![tst 2](https://github.com/user-attachments/assets/d6b8b89a-85f1-40b1-b46f-9d8c7df160a1)
-![tst 3](https://github.com/user-attachments/assets/f6992ec6-a192-46b0-a8b0-9b7f2258218c)
-![tst 4](https://github.com/user-attachments/assets/ba062123-bdef-43d0-83c0-57624af8255f)
+
+Test plan 
+
+![image](https://github.com/user-attachments/assets/6603b968-afc2-4450-a3ca-40e69cecaaf4)
+![image](https://github.com/user-attachments/assets/7b2575f4-a3f2-4eea-b5e6-e45af9eb98de)
+![image](https://github.com/user-attachments/assets/cec65f47-f010-4e27-bfab-476287f36854)
+![image](https://github.com/user-attachments/assets/44441d4d-971e-4e0f-aef3-d39e659159d0)
+![image](https://github.com/user-attachments/assets/8342d310-fe6e-47d8-aa74-6e5d6058e601)
+![image](https://github.com/user-attachments/assets/33705de8-8c13-432c-aaaf-94ace99a421e)
+![image](https://github.com/user-attachments/assets/2fb45d0f-f3b2-45eb-8bfa-af41bddd90ef)
+![image](https://github.com/user-attachments/assets/b3e96009-ddaf-4601-b77a-1ef030aa55cd)
+![image](https://github.com/user-attachments/assets/984dbe93-54a1-41e0-821b-d93164dd477e)
+![image](https://github.com/user-attachments/assets/b5e8971d-4406-456c-9869-2cc41e376ca8)
+![image](https://github.com/user-attachments/assets/f6871b4a-b53d-4b70-a1d6-d89e6b280d1b)
 
 
+
+
+Old Wireframe:
 ![Wframe1](https://github.com/user-attachments/assets/5c547e91-c345-4260-8b29-8743239946aa)
 ![wframe2](https://github.com/user-attachments/assets/b9c1244f-1bbf-4e95-afdb-12dff8c66055)
 
