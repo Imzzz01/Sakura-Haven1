@@ -107,9 +107,10 @@ login.html
 ![image](https://github.com/user-attachments/assets/498aa890-e58b-454f-8c18-f266f39d7b33)
 
 Reference:
-https://www.w3schools.com/Css/css_navbar.asp
-https://developer.mozilla.org/en-US/docs/Web/HTML
-https://getbootstrap.com/
+W3schools: (Nav bar code) https://www.w3schools.com/Css/css_navbar.asp
+Bootstrap : grid system! https://getbootstrap.com/
+Code institute : (Table for my contact page) https://learn.codeinstitute.net/dashboard
+
 
 Pages screenshot
 
@@ -120,9 +121,9 @@ Pages screenshot
 ![image](https://github.com/user-attachments/assets/4abd407d-e377-4ea4-a670-86806fec08b6)
 ![image](https://github.com/user-attachments/assets/45cc34df-b219-4ffc-98b6-00439bade33f)
 ![image](https://github.com/user-attachments/assets/a9d00768-36c6-4f1a-861f-fb19068b3359)
-![image](https://github.com/user-attachments/assets/a3f9166a-f53c-40a1-b2e3-4bc36c78684a)
-![image](https://github.com/user-attachments/assets/dc691b3d-1c6d-4e53-9e24-92161134ee29)
-![image](https://github.com/user-attachments/assets/90227503-b971-4dd7-9730-3731ea676bb1)
+![image](https://github.com/user-attachments/assets/b2867852-b5a1-4436-8fcb-8df5425549c3)
+![image](https://github.com/user-attachments/assets/7ebc5a6b-543e-4353-a23f-1f3bd077af16)
+![image](https://github.com/user-attachments/assets/012627b0-8f46-4598-8cb6-a9dcd0109958)
 
 
 
