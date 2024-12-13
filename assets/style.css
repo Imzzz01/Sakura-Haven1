@@ -311,6 +311,8 @@ th, td {
     color: #ffffff;  /* sets text color */
 }
 
+
+
 /* styles for Video */
 .embed-responsive-item{
     border: none; /* sets text color */
@@ -343,6 +345,15 @@ footer {
 @media(max-width: 768px) {
     h1{
         font-size: 1.5rem;  /* reduces font size of h1 */
+    }
+    table{
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table-container {
+        overflow-x: auto;
+        display: block;
     }
 }
 
