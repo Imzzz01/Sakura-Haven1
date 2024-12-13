@@ -407,9 +407,9 @@ form {
     }
 
 .form-header{
-    font-size: 15px;/* ensures it covers the full height */
+    font-size: 15px;/* sets fonts size */
     
-    color: #000;/* ensures it covers the full height */
-    background-color: #fff;/* ensures it covers the full height */
+    color: #000;/* sets font color*/
+    background-color: #fff;/* sets background color for form header */
     
 }
