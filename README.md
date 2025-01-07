@@ -1,5 +1,5 @@
 #README: Sakura Haven
-(localhost:5500) [Sakura Haven]
+(127.0.0.1:5500) [Sakura Haven]
  Purpose of the Website
  
 Sakura Haven is a website I have created, which is entirely dedicated towards promoting Japanese Skincare and beauty products. My website serves as an educational space where new user can explore the rich heritage of Japanese beauty rituals, while easily accessing high-quality skincare products. My goal is to bridge traditional Japanese skincare practices with modern customer needs, creating a wonderful experience that emphasizes wellness and self-care.
