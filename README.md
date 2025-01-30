@@ -167,12 +167,12 @@ Deployment
 
 This project was developed by using VSCODE, committed to git and pushed to Github.
 
-To deploy this page to Github pages from it's github repository.
+To deploy this page to Github pages from it's GitHub repository.
 
 Follow these steps:
 
-1. Log into Github
-2. There will be a list of repositories, make sure to choose Sakura-haven1.
+1. Log into GitHub
+2. There will be a list of repositories, make sure to choose Sakura-Haven1.
 3. From the menu, on top of the page select settings.
 4. When you have done this, scroll down to pages section.
 5. Inside the pages there will be a Build and deployment section.
