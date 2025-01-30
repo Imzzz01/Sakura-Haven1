@@ -163,3 +163,26 @@ New Wireframe:
 
 ![user query](https://github.com/user-attachments/assets/5495cf40-5a67-45c7-9619-cb92c5da3282)
 
+Deployment 
+
+This project was developed by using VSCODE, committed to git and pushed to Github.
+
+To deploy this page to Github pages from it's github repository.
+
+Follow these steps:
+
+1. Log into Github
+2. There will be a list of repositories, make sure to choose Sakura-haven1.
+3. From the menu, on top of the page select settings.
+4. When you have done this, scroll down to pages section.
+5. Inside the pages there will be a Build and deployment section.
+6. Under source click the drop down menu, and select 'main' make sure the drop down next to main, you have selected root.
+7. Once you have selected main, the project will be deployed.
+8. Refresh the page, and the link will displayed above on the pages section.
+
+How to run this project:
+1. Go to github repository(Sakura-haven1)
+2. Click the code button and copy the repository Url: https://github.com/Imzzz01/Sakura-Haven1.git
+3. Open your terminal, and run bash
+4. Clone your repository open terminal and run git clone https://github.com/Imzzz01/Sakura-Haven1.git
+5. Once my project opens up on VScode, run the project.
