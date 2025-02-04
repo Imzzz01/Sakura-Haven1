@@ -77,13 +77,13 @@ To access my code:
 
 Reference:
 W3schools:
-I have used w3schools to create and handle the nav bar for my project. https://www.w3schools.com/Css/css_navbar.asp
+1. I have used w3schools to create and handle the nav bar for my project. https://www.w3schools.com/Css/css_navbar.asp
 Bootstrap:
-I have used Bootstrap, to make my website responsive on all devices, so when users want to access my project, they can access it on any device. I have used the grid system, in this instance.  https://getbootstrap.com/
+2. I have used Bootstrap, to make my website responsive on all devices, so when users want to access my project, they can access it on any device. I have used the grid system, in this instance.  https://getbootstrap.com/
 Code Institute:
-I have used source code from Code Institute, to create my table for the contact-us section. This helped me create a great table that will stand out to users. https://learn.codeinstitute.net/dashboard
+3. I have used source code from Code Institute, to create my table for the contact-us section. This helped me create a great table that will stand out to users. https://learn.codeinstitute.net/dashboard
 Youtube:
-Youtube Tutorial: I was inspired by this home page in this video, I have used the source code from here, to create a similar home page which made my project look more presentable. https://www.youtube.com/watch?v=2Koro9Q2m5s
+4. Youtube Tutorial: I was inspired by this home page in this video, I have used the source code from here, to create a similar home page which made my project look more presentable. https://www.youtube.com/watch?v=2Koro9Q2m5s
 
 ![image](https://github.com/user-attachments/assets/ed9d648a-63d7-43ca-a730-195e22890acc)
 ![image](https://github.com/user-attachments/assets/0b4065ee-8a79-4781-9a15-c8d220010942)
