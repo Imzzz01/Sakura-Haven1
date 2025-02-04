@@ -76,13 +76,13 @@ To access my code:
 4. This is where my Index.html, Login.html, and Style.css code will be displayed!!
 
 Reference:
-W3schools:
+
 1. I have used w3schools to create and handle the nav bar for my project. https://www.w3schools.com/Css/css_navbar.asp
-Bootstrap:
+
 2. I have used Bootstrap, to make my website responsive on all devices, so when users want to access my project, they can access it on any device. I have used the grid system, in this instance.  https://getbootstrap.com/
-Code Institute:
+   
 3. I have used source code from Code Institute, to create my table for the contact-us section. This helped me create a great table that will stand out to users. https://learn.codeinstitute.net/dashboard
-Youtube:
+  
 4. Youtube Tutorial: I was inspired by this home page in this video, I have used the source code from here, to create a similar home page which made my project look more presentable. https://www.youtube.com/watch?v=2Koro9Q2m5s
 
 ![image](https://github.com/user-attachments/assets/ed9d648a-63d7-43ca-a730-195e22890acc)
