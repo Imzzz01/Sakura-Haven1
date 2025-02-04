@@ -75,6 +75,16 @@ To access my code:
 3. Press on open, taking you to my Gitpod workspace.
 4. This is where my Index.html, Login.html, and Style.css code will be displayed!!
 
+Reference:
+W3schools:
+I have used w3schools to create and handle the nav bar for my project. https://www.w3schools.com/Css/css_navbar.asp
+Bootstrap:
+I have used Bootstrap, to make my website responsive on all devices, so when users want to access my project, they can access it on any device. I have used the grid system, in this instance.  https://getbootstrap.com/
+Code Institute:
+I have used source code from Code Institute, to create my table for the contact-us section. This helped me create a great table that will stand out to users. https://learn.codeinstitute.net/dashboard
+Youtube:
+Youtube Tutorial: I was inspired by this home page in this video, I have used the source code from here, to create a similar home page which made my project look more presentable. https://www.youtube.com/watch?v=2Koro9Q2m5s
+
 ![image](https://github.com/user-attachments/assets/ed9d648a-63d7-43ca-a730-195e22890acc)
 ![image](https://github.com/user-attachments/assets/0b4065ee-8a79-4781-9a15-c8d220010942)
 ![image](https://github.com/user-attachments/assets/fac560ee-902c-4ab3-8d54-ddd78b1aa243)
@@ -106,11 +116,6 @@ style.css
 login.html
 ![image](https://github.com/user-attachments/assets/498aa890-e58b-454f-8c18-f266f39d7b33)
 
-Reference:
-W3schools: (Nav bar code) https://www.w3schools.com/Css/css_navbar.asp
-Bootstrap : grid system! https://getbootstrap.com/
-Code institute : (Table for my contact page) https://learn.codeinstitute.net/dashboard
-Youtube Tutorial: https://www.youtube.com/watch?v=2Koro9Q2m5s
 
 
 Pages screenshot
@@ -179,6 +184,7 @@ Follow these steps:
 6. Under source click the drop down menu, and select 'main' make sure the drop down next to main, you have selected root.
 7. Once you have selected main, the project will be deployed.
 8. Refresh the page, and the link will displayed above on the pages section.
+9. https://imzzz01.github.io/Sakura-Haven1/
 
 How to run this project:
 1. Go to github repository(Sakura-haven1)
